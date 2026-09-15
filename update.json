@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.0-Beta",
+  "version": "1.2.1-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-16",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.0-Beta/TECA-Database-1.2.0-Beta.exe",
-  "sha256": "731ec9d623dc5a70232ab257eb0b18792a9229651d825f97463ea37a779ea70d",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.1-Beta/TECA-Database-1.2.1-Beta.exe",
+  "sha256": "8f05cbdefd76fbc68bbb3af07df0440007d7add694c64d5c628192bee62a0c77",
   "notes": [
-    "온라인 업데이트 기능 추가",
-    "로그인 및 계정 전환 시 새 업데이트 자동 확인",
-    "업데이트 알림에서 나중에 선택 시 같은 실행 세션에서 6시간 동안 재알림 억제",
-    "프로그램 정보의 업데이트 확인 버튼에서 수동 확인 지원",
-    "다운로드 파일 SHA-256 무결성 검증 및 안전한 EXE 교체 구조 추가",
-    "프레임워크 및 주요 라이브러리 표기 줄바꿈 개선"
+    "상세 버튼을 전부 ⓘ 아이콘으로 일원화",
+    "현장 작업 상세 모달을 Lot별 데이터 입력자 정보 형식으로 통일",
+    "인수인계 수정·편집 버튼 가시성 강화",
+    "프로그램 시작 시 5초 로고 인트로 애니메이션 추가 및 클릭·키 입력 스킵 지원",
+    "사이드바 메인 메뉴 전용 테두리 추가"
   ]
 }
