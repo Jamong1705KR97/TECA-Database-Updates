@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.2-Beta",
+  "version": "1.2.3-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-16",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.2-Beta/TECA-Database-1.2.2-Beta.exe",
-  "sha256": "c385f9a35cde925d2bd7378a3d6709d45b6bda15cc953b3f3a2811ff18c57b3d",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.3-Beta/TECA-Database-1.2.3-Beta.exe",
+  "sha256": "ca71cf1135b0517158e2cea9506c15f75c8d8795b21cbb9fb48c916988934fb7",
   "notes": [
-    "업데이트 전환 타이밍을 안정화해 구버전 재실행 문제 수정",
-    "업데이트 후 기존 브라우저 탭을 전환 안내 화면으로 변경하고 자동 닫기 시도 추가",
-    "인트로 로고 원형 배경 확대 및 사각 모서리 노출 개선",
-    "로그인 화면에 인트로와 연계된 움직이는 배경 적용",
-    "Lot별 데이터 구조화 입력값 오른쪽 정렬 적용"
+    "Lot별 데이터의 G탈색·G농축/건조·G정제를 G정제로 통합",
+    "Lot별 데이터의 A탈색·A결정/건조·A정제를 A정제로 통합",
+    "통합 정제 탭에서는 기존 Lot 항목을 우선하고 탈색 → 농축/건조 또는 결정/건조 → 현장 작업 추가항목 순으로 표시",
+    "사이드바 세로 스크롤을 더 얇고 은은하게 조정하고 현재 사이드바 색상 설정에 자연스럽게 맞도록 개선"
   ]
 }
