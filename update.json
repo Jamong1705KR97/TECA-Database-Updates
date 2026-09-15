@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "enabled": false,
+  "enabled": true,
   "version": "1.2.0-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-16",
-  "downloadUrl": "",
-  "sha256": "",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.0-Beta/TECA-Database-1.2.0-Beta.exe",
+  "sha256": "731ec9d623dc5a70232ab257eb0b18792a9229651d825f97463ea37a779ea70d",
   "notes": [
     "온라인 업데이트 기능 추가",
     "로그인 및 계정 전환 시 새 업데이트 자동 확인",
