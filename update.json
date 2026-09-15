@@ -5,11 +5,11 @@
   "channel": "beta",
   "publishedAt": "2026-09-16",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.5-Beta/TECA-Database-1.2.5-Beta.exe",
-  "sha256": "275653713e7ffbac77b027762c0f3906855a1550e7ffd1216af0813200d93ab1",
+  "sha256": "67b6af5d42aa04e0732d51e9aa4b57a484f802bd9a9bb0ccab84bd5a874e8c56",
   "notes": [
     "현장 작업 추가항목의 비고/반영/상세 UI를 Lot별 데이터 방식으로 통일했습니다.",
-    "현장 작업 상세 모달에서 비고 영역을 분리하고, 상세 조회 실패 시에도 모달이 열리도록 개선했습니다.",
+    "현장 작업 상세 모달에서 비고 영역을 제거하고, 상세 조회 실패 시에도 모달이 열리도록 개선했습니다.",
     "TECA Database 런처, 앱 창 실행기, 백엔드 엔진에 역할별 전용 아이콘을 적용했습니다.",
-    "1.2.4에서 1.2.5로 업데이트할 때 필요한 실행파일 구성도 함께 전환됩니다."
+    "업데이트 런처가 배포 manifest를 직접 재확인하도록 보강해 '업데이트 배포 정보가 올바르지 않습니다.' 오류를 수정했습니다."
   ]
 }
