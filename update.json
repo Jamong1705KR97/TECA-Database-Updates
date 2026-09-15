@@ -5,10 +5,10 @@
   "channel": "beta",
   "publishedAt": "2026-09-16",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.2-Beta/TECA-Database-1.2.2-Beta.exe",
-  "sha256": "d36bd61edeba0c29d1223119e8e57b8ef7d86ed8fb27f786210c203a270c6710",
+  "sha256": "c385f9a35cde925d2bd7378a3d6709d45b6bda15cc953b3f3a2811ff18c57b3d",
   "notes": [
-    "온라인 업데이트 후 기존 TECA 종료와 새 버전 재실행 타이밍 안정화",
-    "업데이트 설치 진행 안내 및 재시작 지연 시 사용자 안내 개선",
+    "업데이트 전환 타이밍을 안정화해 구버전 재실행 문제 수정",
+    "업데이트 후 기존 브라우저 탭을 전환 안내 화면으로 변경하고 자동 닫기 시도 추가",
     "인트로 로고 원형 배경 확대 및 사각 모서리 노출 개선",
     "로그인 화면에 인트로와 연계된 움직이는 배경 적용",
     "Lot별 데이터 구조화 입력값 오른쪽 정렬 적용"
