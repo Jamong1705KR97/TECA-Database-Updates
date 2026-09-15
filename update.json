@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.3-Beta",
+  "version": "1.2.5-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-16",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.3-Beta/TECA-Database-1.2.3-Beta.exe",
-  "sha256": "ca71cf1135b0517158e2cea9506c15f75c8d8795b21cbb9fb48c916988934fb7",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.5-Beta/TECA-Database-1.2.5-Beta.exe",
+  "sha256": "275653713e7ffbac77b027762c0f3906855a1550e7ffd1216af0813200d93ab1",
   "notes": [
-    "Lot별 데이터의 G탈색·G농축/건조·G정제를 G정제로 통합",
-    "Lot별 데이터의 A탈색·A결정/건조·A정제를 A정제로 통합",
-    "통합 정제 탭에서는 기존 Lot 항목을 우선하고 탈색 → 농축/건조 또는 결정/건조 → 현장 작업 추가항목 순으로 표시",
-    "사이드바 세로 스크롤을 더 얇고 은은하게 조정하고 현재 사이드바 색상 설정에 자연스럽게 맞도록 개선"
+    "현장 작업 추가항목의 비고/반영/상세 UI를 Lot별 데이터 방식으로 통일했습니다.",
+    "현장 작업 상세 모달에서 비고 영역을 분리하고, 상세 조회 실패 시에도 모달이 열리도록 개선했습니다.",
+    "TECA Database 런처, 앱 창 실행기, 백엔드 엔진에 역할별 전용 아이콘을 적용했습니다.",
+    "1.2.4에서 1.2.5로 업데이트할 때 필요한 실행파일 구성도 함께 전환됩니다."
   ]
 }
