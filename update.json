@@ -1,16 +1,18 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.15-Beta",
+  "version": "1.2.16-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-17",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.15-Beta/TECA-Database-1.2.15-Beta.exe",
-  "sha256": "21886b1f1e6804cacd0acedc261307aadf6b6166cf9dd1fe735ab984c75b6381",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.16-Beta/TECA-Database-1.2.16-Beta.exe",
+  "sha256": "50b80787d346e9b6a69145d7ee5065f7b910837cbc842605d9a1e79e2c476463",
   "notes": [
-    "자외선 사용/교체 이력을 최신순(오늘에서 과거)으로 표시합니다.",
-    "공정별 기록 조회 스크롤 모드에서 평균 데이터와 최신 Lot 사이에 상단 가로스크롤을 복구했습니다.",
-    "공정별 기록 조회 표 보기에 전체 모드를 추가했습니다.",
-    "전체 모드는 예전 방식처럼 모든 컬럼을 한 화면에 압축하여 표시합니다.",
-    "페이지와 스크롤 모드에서는 제조번호, 제조일자, 상태 3개 열의 고정 동작을 유지합니다."
+    "Excel 자동계산 표시값의 불필요한 소수점을 정수 반올림해 표시합니다.",
+    "로그인 이름칸을 빈 상태로 시작하고 최근 로그인 계정 4명 및 이력 5건을 추가했습니다.",
+    "계정 프로필 사진 등록과 원형 크롭 위치/확대 조절을 지원합니다.",
+    "로그인 화면에 TECA 원형 로고를 추가했습니다.",
+    "사이드바 오늘 작업 일정의 원본 줄바꿈을 유지합니다.",
+    "자외선 기록을 오늘까지 계산하고 최근 18개월을 최신순으로 표시합니다.",
+    "완전 로컬 동작 안내의 별도 사각 배경을 제거했습니다."
   ]
 }
