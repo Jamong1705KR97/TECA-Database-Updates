@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.14-Beta",
+  "version": "1.2.15-Beta",
   "channel": "beta",
-  "publishedAt": "2026-09-16",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.14-Beta/TECA-Database-1.2.14-Beta.exe",
-  "sha256": "e10603015e612bb422f219fb4549533d83ffcb75dac237f6b80f69c51e41280e",
+  "publishedAt": "2026-09-17",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.15-Beta/TECA-Database-1.2.15-Beta.exe",
+  "sha256": "743bbb43cd1b60386785598800d25274f358e4271b8b163f456ea0ab890f8b5a",
   "notes": [
-    "공정별 기록 조회 스크롤 모드의 중복 하단 스크롤을 정리하고 평균 데이터와 최신 Lot 사이에 가로스크롤을 배치했습니다.",
-    "자외선 사용현황을 최근 1년으로 제한하고 원본 마지막 기록부터 오늘까지 하루 24시간씩 자동 누적합니다.",
-    "자외선 누적시간은 2496시간 다음 0시간으로 순환하며 0시간 행은 교체로 표시합니다.",
-    "통합 Excel의 현장 작업 추가항목 영역을 분석용 기본항목과 유사한 표 서식으로 정돈했습니다.",
-    "통합 Excel의 셀 위치와 TECA 메타데이터는 유지해 다시 가져오기 호환성을 보존했습니다."
+    "자외선 사용/교체 이력을 최신순(오늘에서 과거)으로 표시합니다.",
+    "공정별 기록 조회 스크롤 모드에서 평균 데이터와 최신 Lot 사이에 상단 가로스크롤을 복구했습니다.",
+    "공정별 기록 조회 표 보기에 전체 모드를 추가했습니다.",
+    "전체 모드는 예전 방식처럼 모든 컬럼을 한 화면에 압축하여 표시합니다.",
+    "페이지와 스크롤 모드에서는 제조번호, 제조일자, 상태 3개 열의 기존 고정 동작을 유지합니다."
   ]
 }
