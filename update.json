@@ -5,7 +5,7 @@
   "channel": "beta",
   "publishedAt": "2026-09-16",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.6-Beta/TECA-Database-1.2.6-Beta.exe",
-  "sha256": "c2a0dd020b159ac795d095b2c8a5870466b6d94af1b180362f030881c96d1a72",
+  "sha256": "7376006cff2f4b9607b205430a4bb917bc3e4a66fd859f61fd58062b56e81860",
   "notes": [
     "입력자 정보의 1/2 구조값 줄맞춤을 정리했습니다.",
     "TECA 앱 창이 기본 1600x900 크기로 시작되도록 변경했습니다.",
