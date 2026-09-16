@@ -1,18 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.16-Beta",
+  "version": "1.2.17-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-17",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.16-Beta/TECA-Database-1.2.16-Beta.exe",
-  "sha256": "50b80787d346e9b6a69145d7ee5065f7b910837cbc842605d9a1e79e2c476463",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.17-Beta/TECA-Database-1.2.17-Beta.exe",
+  "sha256": "7f1948759df5d1a6e5617a0acb02c583ab6e49f7c4d9e3d2a787441e4c3d7546",
   "notes": [
-    "Excel 자동계산 표시값의 불필요한 소수점을 정수 반올림해 표시합니다.",
-    "로그인 이름칸을 빈 상태로 시작하고 최근 로그인 계정 4명 및 이력 5건을 추가했습니다.",
-    "계정 프로필 사진 등록과 원형 크롭 위치/확대 조절을 지원합니다.",
-    "로그인 화면에 TECA 원형 로고를 추가했습니다.",
-    "사이드바 오늘 작업 일정의 원본 줄바꿈을 유지합니다.",
-    "자외선 기록을 오늘까지 계산하고 최근 18개월을 최신순으로 표시합니다.",
-    "완전 로컬 동작 안내의 별도 사각 배경을 제거했습니다."
+    "내 계정 정보 화면의 프로필·이름 및 보안 설정 레이아웃을 정돈했습니다.",
+    "사이드바 현재 계정 영역에 등록된 원형 프로필 사진을 표시합니다.",
+    "사이드바 오늘 작업 일정을 기본 펼침 상태에서 접고 펼칠 수 있게 했습니다.",
+    "오늘 작업 일정 화살표를 기존 사이드바 메뉴 카테고리와 같은 모양과 회전 방식으로 통일했습니다.",
+    "오늘 작업 일정은 펼친 상태에서 기존 디자인과 원본 줄바꿈·색상 표시를 유지합니다."
   ]
 }
