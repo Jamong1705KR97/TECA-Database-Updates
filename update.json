@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.11-Beta",
+  "version": "1.2.12-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-16",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.11-Beta/TECA-Database-1.2.11-Beta.exe",
-  "sha256": "ee197ffff6989f20e76f5dd5b510b52ed017d75cc975e9a98342f26c410e514b",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.12-Beta/TECA-Database-1.2.12-Beta.exe",
+  "sha256": "226b19ba2773eb389c2d825d49967f1d301a3f4b820cfe0d6b58b20e4bf39886",
   "notes": [
-    "사이드바 오늘 작업 일정에서도 인수인계 원본의 글자색과 서식을 유지합니다.",
-    "각 메뉴 페이지의 표 헤더와 데이터 셀을 가운데 정렬했습니다.",
-    "작업자용 추가항목의 복합값은 원본 줄바꿈을 유지하여 2줄·3줄 등으로 표시합니다.",
-    "작업자용 추가항목 및 현장 작업 원본데이터의 공정 화면에서 중복 일자와 독립 비고 항목을 제외했습니다.",
-    "Shift+클릭 즉석편집 중 외부 공간 클릭 시 변경 여부에 따라 자동 취소 또는 반영 확인을 수행합니다.",
-    "브라우저 기본 확인창을 화면 중앙부의 TECA 자체 확인 모달로 통일하고 Enter 확인 / ESC 취소를 지원합니다."
+    "병풀내역을 시험번호·원산지·무게·함량으로 분리 표시하고 누락 항목은 자리 밀림 없이 처리합니다.",
+    "표가 지나치게 좁아지는 경우에만 축약 헤더/전체 헤더 전환을 표시합니다.",
+    "축약 헤더는 긴 항목명을 말줄임표로 줄이고 호버 시 전체 항목명을 보여줍니다.",
+    "전체 헤더는 원문 항목명과 가로스크롤을 사용해 세로로 찢어지는 헤더 표시를 방지합니다.",
+    "분석용 기본항목과 작업자용 추가항목 모두 동일한 헤더 표시 체계를 사용합니다.",
+    "병풀 무게와 함량의 평균·트렌드는 누락값이 있어도 병풀 순서를 유지합니다."
   ]
 }
