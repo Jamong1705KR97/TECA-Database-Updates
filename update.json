@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.13-Beta",
+  "version": "1.2.14-Beta",
   "channel": "beta",
-  "publishedAt": "2026-09-17",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.13-Beta/TECA-Database-1.2.13-Beta.exe",
-  "sha256": "e230c96db46f783c6c48ce90a214c87a2d99d12672b43c5d4706e4a88c73418f",
+  "publishedAt": "2026-09-16",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.14-Beta/TECA-Database-1.2.14-Beta.exe",
+  "sha256": "e10603015e612bb422f219fb4549533d83ffcb75dac237f6b80f69c51e41280e",
   "notes": [
-    "공정별 기록 조회를 페이지/스크롤 2가지 보기 방식으로 개편했습니다.",
-    "제조번호·제조일자·상태는 페이지 이동과 가로 스크롤에서도 항상 고정됩니다.",
-    "페이지 보기에는 상·하단 페이지 이동을, 스크롤 보기에는 상·하단 동기화 가로스크롤을 추가했습니다.",
-    "추출의 1·2번 탱크 복합값 Shift+클릭 편집을 2행 편집기로 개선했습니다.",
-    "CIP·소독액·저울·분동·자외선·냉각수 자료를 목적별 카드와 요약 중심으로 재구성했습니다.",
-    "설비·관리 탭은 원본 자료가 없어도 항상 표시되도록 개선했습니다."
+    "공정별 기록 조회 스크롤 모드의 중복 하단 스크롤을 정리하고 평균 데이터와 최신 Lot 사이에 가로스크롤을 배치했습니다.",
+    "자외선 사용현황을 최근 1년으로 제한하고 원본 마지막 기록부터 오늘까지 하루 24시간씩 자동 누적합니다.",
+    "자외선 누적시간은 2496시간 다음 0시간으로 순환하며 0시간 행은 교체로 표시합니다.",
+    "통합 Excel의 현장 작업 추가항목 영역을 분석용 기본항목과 유사한 표 서식으로 정돈했습니다.",
+    "통합 Excel의 셀 위치와 TECA 메타데이터는 유지해 다시 가져오기 호환성을 보존했습니다."
   ]
 }
