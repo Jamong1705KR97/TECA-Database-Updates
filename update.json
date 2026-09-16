@@ -5,8 +5,9 @@
   "channel": "beta",
   "publishedAt": "2026-09-16",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.14-Beta/TECA-Database-1.2.14-Beta.exe",
-  "sha256": "e10603015e612bb422f219fb4549533d83ffcb75dac237f6b80f69c51e41280e",
+  "sha256": "b40afe8056a210bd5dc7908571ca7dbde280a0067cafa1c2bfd3f21af7d70c9f",
   "notes": [
+    "자외선 사용/교체 이력을 오늘 날짜부터 과거 방향의 최신순으로 표시하도록 변경했습니다.",
     "공정별 기록 조회 스크롤 모드의 중복 하단 스크롤을 정리하고 평균 데이터와 최신 Lot 사이에 가로스크롤을 배치했습니다.",
     "자외선 사용현황을 최근 1년으로 제한하고 원본 마지막 기록부터 오늘까지 하루 24시간씩 자동 누적합니다.",
     "자외선 누적시간은 2496시간 다음 0시간으로 순환하며 0시간 행은 교체로 표시합니다.",
