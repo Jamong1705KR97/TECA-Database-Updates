@@ -4,7 +4,7 @@
   "version": "1.2.19-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-17",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.19/TECA-Database-1.2.19-Beta.exe",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.19-Beta/TECA-Database-1.2.19-Beta.exe",
   "sha256": "da4d55122028822ab1015b46e986d300b8609c563dd0227309ffa7c1bd56e13e",
   "notes": [
     "등록한 프로필 사진을 로그인 화면, 계정 전환, 사이드바, 계정관리, 로그인 이력, 활동내역, 건의·요청 게시판 전체에서 동일하게 표시합니다.",
