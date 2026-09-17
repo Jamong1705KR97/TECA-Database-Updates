@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.25-Beta",
+  "version": "1.2.26-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-18",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.25-Beta/TECA-Database-1.2.25-Beta.exe",
-  "sha256": "20b034e1f31f8f8a5149840b2ce3b1f736458913ef54ac37d39a12af8c2ea48d",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.26-Beta/TECA-Database-1.2.26-Beta.exe",
+  "sha256": "59a347273d89d37d1ecad749312ca4d75382d5368836806b46c83ec935735748",
   "notes": [
-    "사이드바 실제 우측 경계 드래그 및 조정 가이드 개선",
-    "사이드바 전체 비례 확대·축소와 메뉴 세로 공간 계산 수정",
-    "메인 콘텐츠 폭 조정 좌우 경계 가이드 표시",
-    "사이드바·메인 콘텐츠 수치 입력 UI 정돈",
-    "모든 모달의 가변 본문·하단 푸터 고정 레이아웃 보완"
+    "정상 1.2.25 기준으로 UI 조정 기능 안정 재구축",
+    "사이드바 실제 우측 경계 드래그·전체 비례 확대축소·세로 공간 계산 개선",
+    "메인 콘텐츠 폭 조정 좌우 경계 시각화",
+    "모든 모달의 가변 본문·하단 푸터 고정 레이아웃 적용",
+    "작업공간 수치 입력 UI 디자인 정돈"
   ]
 }
