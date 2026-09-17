@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.26-Beta",
+  "version": "1.2.27-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-18",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.26-Beta/TECA-Database-1.2.26-Beta.exe",
-  "sha256": "59a347273d89d37d1ecad749312ca4d75382d5368836806b46c83ec935735748",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.27-Beta/TECA-Database-1.2.27-Beta.exe",
+  "sha256": "84a1329b63aa58b59e2ea5ede4e34d1dcb60ae88a3e74818c49817cb79f2883e",
   "notes": [
-    "정상 1.2.25 기준으로 UI 조정 기능 안정 재구축",
-    "사이드바 실제 우측 경계 드래그·전체 비례 확대축소·세로 공간 계산 개선",
-    "메인 콘텐츠 폭 조정 좌우 경계 시각화",
-    "모든 모달의 가변 본문·하단 푸터 고정 레이아웃 적용",
-    "작업공간 수치 입력 UI 디자인 정돈"
+    "공정별 기록 조회 스크롤 동기화 구조 재작성",
+    "가로 스크롤 마우스 추종 지연·순간이동 현상 개선",
+    "양방향 이벤트 재귀 반영 차단으로 고스팅·잔상 현상 개선",
+    "일반 휠 세로 이동 / Shift+휠 가로 이동 유지"
   ]
 }
