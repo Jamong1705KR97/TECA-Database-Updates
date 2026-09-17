@@ -1,16 +1,14 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.21-Beta",
+  "version": "1.2.22-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-17",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.21-Beta/TECA-Database-1.2.21-Beta.exe",
-  "sha256": "ce080f396d06b8fd87b0b9490563d65e348e9170cd297a3b2bf52a5da7476e01",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.22-Beta/TECA-Database-1.2.22-Beta.exe",
+  "sha256": "0317a66f3de8982ac8ff662f2ce3b19955312082ea6c76066705c50cfc3995f7",
   "notes": [
-    "건의 · 요청 안내문을 TECA-DB 기준으로 간결화하고 건의/요청 구분을 제거했습니다.",
-    "상태 뱃지를 접수 회색, 검토 주황, 처리 중 초록, 처리 완료 파랑으로 구분했습니다.",
-    "기존 적용 완료 상태는 처리 완료로 호환 표시합니다.",
-    "통합 Excel의 현장 작업 추가항목 영역 열 너비와 행 높이를 조정해 분석용 기록과 유사한 비율로 정돈했습니다.",
-    "Excel 셀 값과 TECA 재가져오기용 구조 및 메타데이터는 그대로 유지합니다."
+    "계정별 화면 배율 설정을 추가했습니다.",
+    "화면 배율은 50%부터 150%까지 10% 단위로 선택할 수 있습니다.",
+    "100%는 기존 화면 크기이며 로그인 및 계정 전환 시 해당 계정의 저장된 배율이 즉시 적용됩니다."
   ]
 }
