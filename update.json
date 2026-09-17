@@ -1,6 +1,9 @@
 {
+  "schemaVersion": 1,
   "enabled": true,
   "version": "1.2.23-Beta",
+  "channel": "beta",
+  "publishedAt": "2026-09-17",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.23-Beta/TECA-Database-1.2.23-Beta.exe",
   "sha256": "0d90dd3532816c0de4ce6c3ab247c18a26c9848132578e1f55997de88dbec47e",
   "publishedAt": "2026-09-17",
