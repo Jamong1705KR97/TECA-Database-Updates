@@ -1,11 +1,19 @@
 {
+  "schemaVersion": 1,
+  "enabled": true,
+  "channel": "beta",
   "version": "1.2.28-Beta",
-  "publishedAt": "2026-09-18",
-  "notes": [
-    "계정/프로필/캡처 관련 개선",
-    "냉각시간 경과값 수동 반영 지원",
-    "업데이트 모달 예외 처리 및 프로그램 정보 정리"
-  ],
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.28-Beta/TECA-Database-1.2.28-Beta.exe",
-  "sha256": "7725dcf853bb22e528f967a2715a6302c6547763c21b6f1b347586014073a446"
+  "sha256": "8dad7c2118c43c2a91b3e0feaa84f728347ad0eab28d41ba06f5a8945ce118ce",
+  "publishedAt": "2026-09-18T17:29:00+09:00",
+  "notes": [
+    "UI 일체형 테마·사용자 배경·역할색 상태 동기화",
+    "사이드바·메인페이지 배경 이미지 자유 배치 및 계정별 저장",
+    "계정 전환 UI 안정화와 프로필 사진 자유 크롭·배경색 지원",
+    "프로필 사진을 현장 일정/인수인계 저장 흐름에서 분리",
+    "냉각 경과시간 자동 계산 후 직접 수정 기능 추가",
+    "업데이트 모달 예외 처리와 일반 모달 배율 UI 정리",
+    "캡쳐 리소스 처리 개선 및 PNG 불가 시 SVG 대체 저장",
+    "1.2.27 스크롤 개선 및 기존 리사이즈 동작 보존"
+  ]
 }
