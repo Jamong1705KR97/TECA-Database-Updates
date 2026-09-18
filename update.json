@@ -1,18 +1,14 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.29-Beta",
+  "version": "1.2.30-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-18",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.29-Beta/TECA-Database-1.2.29-Beta.exe",
-  "sha256": "424329a745f44ab0610ec088d4becb878c8a02dad6a538e84d69cbc6260c0eb1",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.30-Beta/TECA-Database-1.2.30-Beta.exe",
+  "sha256": "d0da1269edcc2173ed98076840e7b716221186cce8b79898f28d044b55846970",
   "notes": [
-    "1.2.27→1.2.28 신기능 전수검토 및 회귀 수정",
-    "사이드바·메인 콘텐츠 폭 조정 경계 드래그 복구",
-    "UI 색상·배경 이미지 10~1000% 배치 설정 안정화",
-    "프로필 사진 저장을 현장 일정 데이터에서 전용 로컬 이미지 저장소로 분리",
-    "계정 전환 모달 원래 크기·배치감 복원",
-    "업데이트 모달 일반 모달 배율·리사이즈 UI 완전 제외",
-    "냉각 직접 수정·캡쳐 안전 저장 보강"
+    "사이드바 크기 조정 기능 복구",
+    "메인페이지 폭 조정 기능 복구",
+    "레이아웃 리사이즈 이중 이벤트 계층 제거 및 단일 경계 드래그 엔진 복원"
   ]
 }
