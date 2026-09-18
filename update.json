@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.28-Beta",
+  "version": "1.2.29-Beta",
   "channel": "beta",
   "publishedAt": "2026-09-18",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.28-Beta/TECA-Database-1.2.28-Beta.exe",
-  "sha256": "928bfc74c9d00c82ad474a9df45fa4859101611e2b5eb091a304c67765de11ff",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.29-Beta/TECA-Database-1.2.29-Beta.exe",
+  "sha256": "424329a745f44ab0610ec088d4becb878c8a02dad6a538e84d69cbc6260c0eb1",
   "notes": [
-    "UI 개인설정·일체형/커스텀 배경 상태 동기화",
-    "사이드바·메인페이지 배경 이미지 10~1000% 자유 배치 미리보기 추가",
-    "UI 색상 설정 및 필터·뱃지·버튼 역할색 추가",
-    "프로필 사진 자유 축소 및 빈 공간 배경색 설정 추가",
-    "냉각 자동계산 결과 직접 수정 지원",
-    "계정 전환 카드·업데이트 모달·일반 모달 UI 정돈",
-    "캡쳐 외부 리소스 정리 및 SVG 안전 저장 대체"
+    "1.2.27→1.2.28 신기능 전수검토 및 회귀 수정",
+    "사이드바·메인 콘텐츠 폭 조정 경계 드래그 복구",
+    "UI 색상·배경 이미지 10~1000% 배치 설정 안정화",
+    "프로필 사진 저장을 현장 일정 데이터에서 전용 로컬 이미지 저장소로 분리",
+    "계정 전환 모달 원래 크기·배치감 복원",
+    "업데이트 모달 일반 모달 배율·리사이즈 UI 완전 제외",
+    "냉각 직접 수정·캡쳐 안전 저장 보강"
   ]
 }
