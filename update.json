@@ -2,18 +2,17 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.2.29-Beta",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.29-Beta/TECA-Database-1.2.29-Beta.exe",
-  "sha256": "2e92acb92468e1c390a8981dbb8f36347f27d9025d2712ace0522b7d16c4d20d",
-  "publishedAt": "2026-09-18T21:30:00+09:00",
+  "version": "1.2.30-Beta",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.30-Beta/TECA-Database-1.2.30-Beta.exe",
+  "sha256": "aab8ed35254809e4f9f680707b7d727ae7f1e7593236c545688e04075e7adb06",
+  "publishedAt": "2026-09-19T06:14:41+09:00",
   "notes": [
-    "Excel 작업자용 추가항목 통합보기를 Lot 1행·공정→항목 2단 헤더의 Wide/Pivot 구조로 추가",
-    "1.0.0-Alpha부터 1.2.28-Beta까지 버전 업데이트 이력 복원",
-    "프로필 사진 조회 경로 일원화 및 자유 크롭 내부 연결 안정화",
-    "기존 1.2.28 UI 설정을 보존하는 계정별 ui129model과 자동 마이그레이션 추가",
-    "좌측 사이드바형·상단 네비게이션형·아이콘바+보조패널형·전체화면형·플로팅 메뉴형 5종 Layout Engine 추가",
-    "UI 개인설정에 레이아웃별 전용 옵션, 계정별 저장/복원, 레이아웃·테마·전체 초기화 기능 추가",
-    "일반 모달 배율 숫자칸과 공정별 지표 정보 블록의 넓은 화면 가독성 개선",
-    "기존 스크롤·배경 이미지 편집·모달·냉각시간·업데이트 구조를 보존하고 전체 회귀검사 수행"
+    "레이아웃 전환 cleanup/reset 안정화 및 좌측 사이드바형 복원 오류 수정",
+    "사이드바 없는 전체화면형 제거 및 좌측 사이드바 접기/펼치기 추가",
+    "상단 네비게이션형 상단 공백 제거",
+    "아이콘바+보조패널형 그림 아이콘·보조패널 접기·계정 팝오버 개편",
+    "플로팅 메뉴 드래그 이동·반투명·숨김/복원·계정별 위치 저장 추가",
+    "아이콘바형/플로팅형 계정별 커스텀 메뉴 아이콘 업로드/복원 추가",
+    "기존 Excel·프로필·스크롤·모달·냉각시간 기능 보존 및 전체 회귀검사 수행"
   ]
 }
