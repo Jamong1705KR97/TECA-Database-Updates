@@ -1,15 +1,17 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.2.33-Beta",
-  "revision": 1,
   "channel": "beta",
+  "version": "1.2.34-Beta",
+  "revision": 1,
+  "releaseId": "1.2.34-Beta#1",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.34-Beta/TECA-Database-1.2.34-Beta-FIX1.exe",
+  "sha256": "6668a0a89a7d18f201e0a2ce015307d8bb921d6d9bb9341380c96afb992f4a96",
   "publishedAt": "2026-09-20",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.33-Beta/TECA-Database-1.2.33-Beta-FIX1.exe",
-  "sha256": "8126f417550a8f4616fd3cb20a22a7f231090abfd1ea866cb8c1b2afc5ba8a2a",
   "notes": [
-    "1.2.33-Beta FIX1: 다크모드에서 설비·관리 안내 박스가 밝게 남아 글자 대비가 무너지던 표시 문제를 수정했습니다.",
-    "공정별 기록조회 페이지 번호 컨트롤의 좌우 영역을 정확히 1:1로 맞추고 중앙 구분선을 전체 폭의 정확한 중앙에 배치했습니다.",
-    "기존 1.2.33-Beta 기능과 데이터 구조는 그대로 유지하며 SQL/DB/TECA_Data 포맷 변경은 없습니다."
+    "공정별 기록 조회 Shift+클릭 빠른 수정 입력란을 가운데 정렬로 변경",
+    "같은 계정 재로그인 시 저장된 계정별 UI 설정을 강제로 다시 불러오도록 보강",
+    "좌측 사이드바 세로 스크롤바를 우측 경계 쪽으로 이동",
+    "FIX1: 설비·관리 저울·분동 점검 안내 및 냉각수 연속 작업 참고 박스의 다크모드 표시 보정"
   ]
 }
