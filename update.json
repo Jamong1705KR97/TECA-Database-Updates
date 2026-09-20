@@ -2,16 +2,19 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.3.3-Beta",
+  "version": "1.3.4-Beta",
   "revision": 0,
-  "releaseId": "1.3.3-Beta#0",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.3-Beta/TECA-Database-1.3.3-Beta.exe",
-  "sha256": "9b4bf0681930bce12e65b1928a9a5697445e972ed7e10fcf2113e9c596286a25",
+  "releaseId": "1.3.4-Beta#0",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.4-Beta/TECA-Database-1.3.4-Beta.exe",
+  "sha256": "e98af322a4cde983844f967a0b60f73164e77b0cf4d256bf4d96916f97ee1081",
   "publishedAt": "2026-09-21",
   "notes": [
-    "계정별 UI 사용자설정 복원 흐름을 전면 안정화하고 대시보드의 구형 UI 덮어쓰기 제거",
-    "암호 해제된 1층 XLSX를 A정제/G정제 시트 구조로 직접 인식하여 가져오기",
-    "암호화 Office Excel은 암호 제거 후 일반 XLSX로 저장하도록 명확한 오류 안내",
-    "1층 Excel 미등록 시 A/G 항목 선표시를 제거하고 기존 TECA와 같은 빈 상태 안내로 통일"
+    "1.2.35 정상본을 기준으로 1.3.0~1.3.3에서 의도했던 기능을 6단계 재구성 방식으로 다시 통합",
+    "계정별 UI 사용자설정의 로그인·재로그인·계정전환·세션 복원 흐름 안정화",
+    "Excel 가져오기를 Lot/공정 원본·2·3층 현장 작업·1층 현장 작업·TECA 통합 Excel의 4개 독립 슬롯으로 분리",
+    "1층 A정제/G정제 원본 별도 저장, Lot별 우선순위·원본 메모·A/G 완료 기준 반영",
+    "기존 설비·관리 CHT/DHT와 1층 CHT/DHT를 통합하고 공정 표시 순서를 가수분해 → A계열 → G계열로 통일",
+    "모달 표시 중 사이드바 접기/펴기 토글이 모달 뒤에 위치하도록 보정",
+    "Excel 내보내기를 통합보기 단일 시트로 정리하고 1층 A/G 블록 및 TECA 통합 재가져오기 메타데이터 추가"
   ]
 }
