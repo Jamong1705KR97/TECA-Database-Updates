@@ -2,15 +2,20 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.2.35-Beta",
+  "version": "1.3.0-Beta",
   "revision": 0,
-  "releaseId": "1.2.35-Beta#0",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.35-Beta/TECA-Database-1.2.35-Beta.exe",
-  "sha256": "0f14d02fbdda733e8d555bc752ec84cd97ff662d1fd52f8a0bc2cb1fe5929037",
-  "publishedAt": "2026-09-20",
+  "releaseId": "1.3.0-Beta#0",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.0-Beta/TECA-Database-1.3.0-Beta.exe",
+  "sha256": "8c58a7120fa8017e87f200726aafd71cff4f6c0b060789f05d77d45afa07e476",
+  "publishedAt": "2026-09-21",
   "notes": [
-    "1.2.34 FIX1 계통의 네 가지 UI 보정을 실제 런타임 서비스 섹션에 통합",
-    "구형 /api/update/check 응답에서 downloadUrl·sha256이 누락될 때 GitHub 정식 update.json을 보완 조회하도록 온라인 업데이트 호환성 보강",
-    "업데이트 재시작 race 및 기존 런처·엔진·TECA_Data 구조는 변경하지 않음"
+    "현장 원본 Excel을 최대 3개까지 한 번에 가져올 수 있도록 확장하고, 1층 암호화 Excel은 비밀번호 1011을 자동 시도한 뒤 필요 시 직접 입력할 수 있도록 지원",
+    "현장 작업 원본데이터를 2·3층 Excel / 1층 Excel / 대조 보기로 분리하고 A정제·G정제 원본을 기존 자료와 별도로 보존",
+    "Lot별 데이터에서 분석용 기본항목은 기존 분석값을 우선하고, 작업자용 추가항목이 겹치면 1층 Excel 값을 기존 현장 원본보다 우선 표시",
+    "A분쇄후와 G분쇄후가 모두 입력된 TEA/TNA Lot을 공정 완료로 판정하도록 정제 최종값 기준을 반영",
+    "기존 설비·관리 CHT/DHT와 1층 Excel 자료를 통합하여 중복 항목은 1층 값을 우선하고 신규 설비·작업장을 기존 화면에 추가",
+    "공정 표시 순서를 추출 → 탈색 → 1차 → 2차 → 가수분해 → A계열 → G계열 흐름으로 통일하고 세부 A/G 공정도 동일 원칙으로 정렬",
+    "모달 표시 시 사이드바 접기·펴기 토글이 모달 앞으로 튀어나오지 않도록 stacking 순서를 보정",
+    "Excel 내보내기를 통합보기 중심으로 정리하고 상·하단 표의 좌측 시작열을 맞추며, 하단에 1층 A/G 원본데이터 블록과 동일 공정 순서를 적용"
   ]
 }
