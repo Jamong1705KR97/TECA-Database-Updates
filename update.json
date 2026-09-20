@@ -2,16 +2,17 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.3.1-Beta",
+  "version": "1.3.2-Beta",
   "revision": 0,
-  "releaseId": "1.3.1-Beta#0",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.1-Beta/TECA-Database-1.3.1-Beta.exe",
-  "sha256": "b063262680b9103de99a81ae91b976b4f32777d9f75c6140e2172e7c20bff60a",
+  "releaseId": "1.3.2-Beta#0",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.2-Beta/TECA-Database-1.3.2-Beta.exe",
+  "sha256": "e6445729ec7959ba10f5ff00398adf45d197a6ab153c2791a82b273cb857328b",
   "publishedAt": "2026-09-21",
   "notes": [
-    "프로그램 첫 로그인 시 계정별 UI 레이아웃·테마·사이드바 설정이 일부 늦게 적용되던 초기화 순서를 보강",
-    "1층 암호화 Excel은 기존 TECA 형식 판별보다 A정제·G정제·CHT/DHT 전용 판별을 먼저 수행하여 지원 형식 오류 없이 가져오도록 수정",
-    "현장 작업 원본데이터의 1층 Excel·대조 탭을 데이터 유무와 관계없이 사용할 수 있게 하고, 미등록 상태에서도 A/G 항목 틀을 먼저 표시",
-    "1층 및 기존 작업자용 추가항목의 원본 비고·메모는 실제 내용이 있을 때만 원본 메모로 표시하고 빈 메모 항목은 숨김"
+    "최초 로그인 시 계정별 UI 사용자설정 최종 복원 순서 안정화",
+    "1층 암호화 Excel의 A정제·G정제·CHT/DHT 전용 가져오기 경로 수정",
+    "현장 작업 원본데이터 상단을 2·3층 Excel / 1층 Excel 두 출처로 정리",
+    "1층 Excel 미등록 상태의 A/G 기준항목 선표시 및 가져오기 후 값 연결",
+    "A/G 및 작업자용 추가항목의 원본 메모를 실제 내용이 있을 때만 표시"
   ]
 }
