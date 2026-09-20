@@ -3,15 +3,14 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.2.34-Beta",
-  "revision": 1,
-  "releaseId": "1.2.34-Beta#1",
+  "revision": 0,
+  "releaseId": "1.2.34-Beta#0",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.2.34-Beta/TECA-Database-1.2.34-Beta.exe",
-  "sha256": "6668a0a89a7d18f201e0a2ce015307d8bb921d6d9bb9341380c96afb992f4a96",
+  "sha256": "73bdb60e686bb805823751349cca73e5d552ee9d7c42b0a19e4ff2445159f65c",
   "publishedAt": "2026-09-20",
   "notes": [
-    "공정별 기록 조회 Shift+클릭 빠른 수정 입력란을 가운데 정렬로 변경",
-    "같은 계정 재로그인 시 저장된 계정별 UI 설정을 다시 불러오도록 보강",
-    "좌측 사이드바 세로 스크롤바를 우측 경계 쪽으로 이동",
-    "설비·관리 화면의 다크모드 안내 박스 표시를 보정"
+    "공정별 기록 조회의 Shift+클릭 빠른 수정 입력란을 가운데 정렬로 변경",
+    "같은 계정으로 재로그인할 때 저장된 계정별 UI 개인설정을 다시 불러오도록 보강",
+    "좌측 사이드바 세로 스크롤바를 우측 경계 쪽으로 이동해 메뉴와 오늘 작업 일정의 가로 공간을 확대"
   ]
 }
