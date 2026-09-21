@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.3.6-Beta",
-  "revision": 2,
-  "releaseId": "1.3.6-Beta#2",
+  "revision": 3,
+  "releaseId": "1.3.6-Beta#3",
   "channel": "beta",
   "publishedAt": "2026-09-21",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.6-Beta/TECA-Database-1.3.6-Beta.exe",
-  "sha256": "e1870ab4e4a24f0dff290a85f5b19b3426bfc5931d1c5a0a731f06d9c4c762c1",
+  "sha256": "f74db02ea32dbc19d8dcbcdec88db12a1525a4069a3e122c93db3029e9fd9315",
   "notes": [
-    "여러 연도의 2·3층 현장 작업 Excel 누적 저장을 batch 방식으로 개선하여 장시간 멈춤 현상을 수정했습니다.",
-    "누적 archive보다 backend의 최근 현장 Excel이 최신인 경우 즉시 병합해 화면에 반영하고 archive를 복구 저장하도록 보강했습니다.",
-    "중단된 field23 저장에서 남을 수 있는 고아 chunk 정리 경로를 추가했습니다.",
-    "공정 분석 로딩 timeout/재시도와 한 풀 분석·풀 간 비교 모드 전환을 보강하고 공정 데이터 로딩을 병렬화했습니다.",
-    "Revision 1에서 완료되지 않은 과거 Excel 가져오기는 Revision 2 적용 후 다시 불러오면 누적되며 업로드 순서는 상관없습니다.",
+    "1.3.6 전체 기능을 1.3.5 정상본 기준으로 전수 재점검하고 누적 원본 저장 race, 손상 archive 복구, 공정 분석 무한 대기 문제를 교정했습니다.",
+    "2·3층 현장 작업 Excel은 업로드 순서와 무관하게 여러 연도·여러 파일을 누적하며, 새 Excel의 빈칸은 기존값을 유지하고 명시적 0은 자동 반영합니다.",
+    "서로 다른 유효값은 적용 전 Preview와 상충 데이터 목록에서 새 Excel 값/기존 TECA 값을 선택할 수 있습니다.",
+    "M/S·A/S·M/A·A/A 자동합계를 기록 총량과 대조하고 불일치 시 확인 경고를 표시합니다.",
+    "공정 분석에서 한 풀 분석, 풀 간 비교, 공정별 대조, Cake/건조 Cake 등 좋은 결과군의 과거 관찰 범위를 확인할 수 있습니다.",
     "SQL/DB 및 기존 TECA_Data 파일 형식 변경은 없습니다."
   ]
 }
