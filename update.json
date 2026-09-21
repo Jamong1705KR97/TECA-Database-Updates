@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.3.6-Beta",
-  "revision": 3,
-  "releaseId": "1.3.6-Beta#3",
+  "revision": 4,
+  "releaseId": "1.3.6-Beta#4",
   "channel": "beta",
-  "publishedAt": "2026-09-21",
+  "publishedAt": "2026-09-22",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.6-Beta/TECA-Database-1.3.6-Beta.exe",
-  "sha256": "f74db02ea32dbc19d8dcbcdec88db12a1525a4069a3e122c93db3029e9fd9315",
+  "sha256": "3d43aeea9a6703bb36aaf2bf5c5898235e1c41a0e6735580e1f50e30b2d23dde",
   "notes": [
-    "1.3.6 전체 기능을 1.3.5 정상본 기준으로 전수 재점검하고 누적 원본 저장 race, 손상 archive 복구, 공정 분석 무한 대기 문제를 교정했습니다.",
-    "2·3층 현장 작업 Excel은 업로드 순서와 무관하게 여러 연도·여러 파일을 누적하며, 새 Excel의 빈칸은 기존값을 유지하고 명시적 0은 자동 반영합니다.",
-    "서로 다른 유효값은 적용 전 Preview와 상충 데이터 목록에서 새 Excel 값/기존 TECA 값을 선택할 수 있습니다.",
-    "M/S·A/S·M/A·A/A 자동합계를 기록 총량과 대조하고 불일치 시 확인 경고를 표시합니다.",
-    "공정 분석에서 한 풀 분석, 풀 간 비교, 공정별 대조, Cake/건조 Cake 등 좋은 결과군의 과거 관찰 범위를 확인할 수 있습니다.",
-    "SQL/DB 및 기존 TECA_Data 파일 형식 변경은 없습니다."
+    "2·3층 현장 작업 Excel을 여러 연도·여러 파일로 누적할 수 있는 비파괴 병합 구조를 추가했습니다.",
+    "새 Excel의 빈칸은 기존값을 유지하고, 명시적 0은 자동반영하며, 실제 상충값만 적용 전에 선택하도록 했습니다.",
+    "병합 적용 후 저장 결과를 재검증하고 중단·응답 유실·불일치 시 기존 원본을 판별·복구하도록 보강했습니다.",
+    "TECA 통합 Excel 재가져오기에도 2·3층 현장 원본의 비파괴 병합 규칙을 적용했습니다.",
+    "작업자용 추가항목에서 기본 Lot DB에 없는 과거 현장 원본 Lot도 확인할 수 있게 했습니다.",
+    "M/S + A/S + M/A + A/A 자동합계를 기존 총과 비교하여 0.03kg 초과 차이만 확인 필요로 표시합니다."
   ]
 }
