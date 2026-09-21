@@ -2,16 +2,17 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.3.6-Beta",
-  "revision": 0,
-  "releaseId": "1.3.6-Beta#0",
+  "revision": 1,
+  "releaseId": "1.3.6-Beta#1",
   "channel": "beta",
   "publishedAt": "2026-09-21",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.6-Beta/TECA-Database-1.3.6-Beta.exe",
-  "sha256": "b744d412d3bc016f7eee37b6fa016fc92e2108b88613c96a2168ba3daf0d83ad",
+  "sha256": "3963183bfda30f4b33d8b43b02a25891f5d2af7ef4f7860a85261552a0b2e2f0",
   "notes": [
     "2·3층 현장 작업 Excel을 누적·비파괴 병합형으로 변경하고 빈칸 보존·0 자동반영·상충 Preview/선택 처리를 추가했습니다.",
     "M/S·A/S·M/A·A/A 자동합계를 기록 총량과 대조하여 불일치 시 경고와 자동계산값을 표시합니다.",
     "공정·데이터에 공정 분석을 시험 도입하여 풀별/풀 간 비교, 공정별 대조, Cake·건조 Cake·반제품량·성분값 기반 좋은 결과군 분석을 제공합니다.",
+    "Revision 1에서 실제 서비스 런타임 section을 교정하여 업데이트/Portable 실행 후 1.3.5로 표시되던 패키징 문제를 수정했습니다.",
     "SQL/DB 및 기존 TECA_Data 파일 형식 변경은 없습니다."
   ]
 }
