@@ -2,17 +2,10 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.3.7-Beta",
-  "revision": 2,
-  "releaseId": "1.3.7-Beta#2",
+  "revision": 3,
+  "releaseId": "1.3.7-Beta#3",
   "channel": "beta",
-  "publishedAt": "2026-09-22",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.7-Beta/TECA-Database-1.3.7-Beta.exe",
-  "sha256": "5e040bd85705afad33234342f59780250dc64e14cb6a4a1f9cb62608a1e30c79",
-  "notes": [
-    "이미 저장된 2026 Lot와 사용된 풀을 먼저 즉시 표시하고 상세 공정 데이터는 뒤에서 보강하도록 공정 분석 로더를 2단계 구조로 변경했습니다.",
-    "상세 Lot·1층·현장 원본 보강이 지연되거나 일부 실패해도 기존 Lot/풀 목록과 한 풀 분석·풀 간 비교 화면을 유지합니다.",
-    "구형 2·3층 현장 Excel 가져오기에서 발생하던 xlsxCol129 is not defined 오류를 수정했습니다.",
-    "새 Excel 반영과 데이터 수정 후 분석 캐시를 무효화해 최신 저장 데이터로 공정 분석을 다시 계산합니다.",
-    "1.3.7-Beta의 공정 분석, 좋은 결과군, 근거 Lot, 풀 간 비교, 농축 사례 분석, 0.01kg 총량 검산 기능을 유지합니다."
-  ]
+  "sha256": "d86bb50095ec60543912f487a20598550d6af258ed2a6a7cc0eeaf15f428f49b",
+  "notes": "Revision 3: 실제 서비스 HTML 잘림 수정, 구형 현장 Excel 다단 헤더·공유 수식 개선, 분석 로딩 및 최신 데이터 갱신 보강"
 }
