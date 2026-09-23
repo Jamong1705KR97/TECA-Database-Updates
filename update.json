@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.3.7-Beta",
-  "revision": 3,
-  "releaseId": "1.3.7-Beta#3",
+  "version": "1.3.8-Beta",
+  "revision": 0,
+  "releaseId": "1.3.8-Beta#0",
   "channel": "beta",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.7-Beta/TECA-Database-1.3.7-Beta.exe",
-  "sha256": "d86bb50095ec60543912f487a20598550d6af258ed2a6a7cc0eeaf15f428f49b",
-  "notes": "Revision 3: 실제 서비스 HTML 잘림 수정, 구형 현장 Excel 다단 헤더·공유 수식 개선, 분석 로딩 및 최신 데이터 갱신 보강"
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.8-Beta/TECA-Database-1.3.8-Beta.exe",
+  "sha256": "e1354fe02dd66a36075aa5606fd74c7edb9313925dab9a334609c08eaa7d0910",
+  "notes": "1.3.8-Beta: 피에르/피에르파브르 공급처 정규화, 3개월 초과 진행 Lot의 공정 현황 미반영 표시, 테마 적용 시 배경 이미지 비활성화, 주성분 분석(A/S 중심 풀 비교·투입량 보정·공정 영향·고수율 조건·근거 Lot·가설/반례) 추가"
 }
