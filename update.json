@@ -3,13 +3,15 @@
   "enabled": true,
   "version": "1.3.9-Beta",
   "revision": 0,
+  "releaseId": "1.3.9-Beta#0",
   "channel": "beta",
-  "releaseId": "v1.3.9-Beta",
+  "publishedAt": "2026-09-26",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.9-Beta/TECA-Database-1.3.9-Beta.exe",
-  "sha256": "cf255eab49228a24eaab302b2ee011cc19bbc13d69d321227a8cd131bf1707fb",
+  "sha256": "d9d010a805d8d764cef2a87e39acabe9af3d91e4911a7a3b1500b23825bf22f9",
   "notes": [
-    "주성분 분석 화면 전환 및 데이터 연결 수정",
-    "피에르 공급처 별칭의 풀 그룹 통합 수정",
-    "공정 분석 복수 풀 표시 및 주성분 분석 UI 개선"
+    "서비스 HTML 길이 불일치와 공급처 정규화 참조 오류 수정",
+    "주성분 분석의 성분·분석 영역 전환과 Dataset 갱신 통합",
+    "주성분 분석 UI 개선",
+    "공정 분석 복수 풀 표시 개선"
   ]
 }
