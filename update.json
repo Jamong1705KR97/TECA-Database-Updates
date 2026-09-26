@@ -7,5 +7,7 @@
   "channel": "beta",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.14-Beta/TECA-Database-1.3.14-Beta.exe",
   "sha256": "be040cb69b35cd9c5cd06be6a889df5d74edd12c57d042f6b1b8bde73b240bab",
-  "notes": "서비스 HTML 잘림, 재로그인 데이터 로딩 및 안전 모달 복원, 로그인 오버레이 정리, 트렌드 정규화 수정"
+  "notes": [
+    "서비스 HTML 잘림, 재로그인 데이터 로딩 및 안전 모달 복원, 로그인 오버레이 정리, 트렌드 정규화 수정"
+  ]
 }
