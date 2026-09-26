@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.3.11-Beta",
+  "version": "1.3.12-Beta",
   "revision": 0,
-  "releaseId": "1.3.11-Beta#0",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.11-Beta/TECA-Database-1.3.11-Beta.exe",
-  "sha256": "081954d974c272206777595f2cca9e74220e356d5f331af9502fb08fae341443",
+  "releaseId": "1.3.12-Beta#0",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.12-Beta/TECA-Database-1.3.12-Beta.exe",
+  "sha256": "efc95492f1fa136186f8c9134af91715a5dc8f75904b329a882480c9389a7300",
   "publishedAt": "2026-09-26",
   "notes": [
-    "분석 근거표·대상 Lot 목록을 더 컴팩트하게 정리하고 TEA/TNA 등 Lot 구분을 색상 배지로 강화",
-    "좌측 사이드바 접기/펼치기 레일을 명확한 기능성 막대로 개선",
-    "계정별 마지막 페이지와 자동로그아웃 직전 안전한 업무 모달을 같은 계정 재로그인 시 복원",
-    "라이트/다크 테마에서 자동로그아웃 임박 경고 대비 강화",
-    "일반사용자/관리자 2단계 권한과 관리자 1명 원칙을 적용하고 게시판 상태변경·삭제 권한을 작성자/관리자 기준으로 제한"
+    "계정별 마지막 페이지 저장·복원을 일반 로그인·빠른 로그인·계정 전환·인증 유지 시작 경로에서 동일하게 보강",
+    "자동로그아웃 시 업무 모달을 즉시 숨기고 같은 계정 재로그인 후 마지막 페이지와 안전한 업무 모달을 순서대로 복원",
+    "조제비중 등 과거 비율값을 트렌드 그래프 데이터 단계에서도 정규화해 그래프와 평균·최소·최대 계산 스케일을 통일",
+    "사이드바·보조패널 접기/펼치기 세로 레일 전체를 클릭 가능한 토글로 변경",
+    "1.3.11의 관리자 권한·게시판 권한·분석 UI·원본 데이터 보존 정책 유지"
   ]
 }
