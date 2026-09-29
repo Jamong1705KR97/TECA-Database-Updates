@@ -3,16 +3,16 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.3.20-Beta",
-  "revision": 0,
-  "releaseId": "1.3.20-Beta#0",
-  "publishedAt": "2026-09-29T22:38:00+09:00",
+  "revision": 1,
+  "releaseId": "1.3.20-Beta#1",
+  "publishedAt": "2026-09-29T23:59:00+09:00",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.20-Beta/TECA-Database-1.3.20-Beta.exe",
-  "sha256": "adf8269970701aa991500b98d32b3650e2aafb2da72f110c39f9e5170f5b4daa",
+  "sha256": "8de1792856cd17c4665cfa3ec682bc55940a42e8e83277854a98b80cbc80b7d0",
   "notes": [
     "병풀 시험번호·원산지·무게·함량: 일반 클릭은 개별 상세/수정 모달, Shift+클릭은 즉시 수정으로 통일",
     "추출액(L): 모든 사용자 표시에서 소수점 없이 정수 반올림, 원본 저장 정밀도 유지",
-    "작업자용 추가항목 표 맨 오른쪽에 비고 열 추가 및 비고 전용 상세 보기로 수정",
+    "작업자용 추가항목 표 맨 오른쪽에 비고 열 추가, 비고 내용이 있으면 상세 보기*로 즉시 구분",
     "제조번호 전체 공정 상세 모달에서 비고를 각 공정의 마지막에 배치",
-    "페이지 넘김 보기 마지막 1~2개 항목의 과도한 폭 확장을 제한하고 왼쪽 정렬"
+    "페이지 넘김 보기 마지막 1~2개 항목은 폭을 제한해 왼쪽 정렬하고 빈 우측 영역에도 표 디자인을 끝까지 유지"
   ]
 }
