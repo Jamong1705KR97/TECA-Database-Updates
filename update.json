@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.3.18-Beta",
+  "version": "1.3.19-Beta",
   "revision": 0,
-  "releaseId": "1.3.18-Beta#0",
+  "releaseId": "1.3.19-Beta#0",
   "channel": "beta",
-  "publishedAt": "2026-09-28",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.18-Beta/TECA-Database-1.3.18-Beta.exe",
-  "sha256": "572fa0b27702b7854b81fa394552ff2d6abcb47fa931a0a309c4362d53fbc5da",
+  "publishedAt": "2026-09-29",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.19-Beta/TECA-Database-1.3.19-Beta.exe",
+  "sha256": "4b9b8cd173174cbaf5e2bdd89e33c86731f07b8c41147c947ac02b4ec15018ad",
   "notes": [
-    "Excel 시간/기간 필드를 필드 의미와 셀 표시형식에 맞춰 해석하여 누적 여과시간 39:12, 실제 시각 18:41, 정치시간 1/1.5/3 등을 raw serial이나 1899/1900 날짜로 오인하지 않도록 개선했습니다.",
-    "기존 TECA의 확실한 시간/기간 artifact와 새 Excel 값을 공통 기준으로 정규화해 같은 duration은 상충으로 잡지 않고, 상충창·조회·수정 화면에 raw Excel serial이 노출되지 않도록 보강했습니다."
+    "병풀내역은 기존 통합 원본 한 셀을 유지하면서 공정별 기록 조회의 시험번호·원산지·무게·함량 분리 표시를 Shift+클릭으로 개별 수정할 수 있게 했습니다. 여러 병풀 중 선택한 줄의 선택 항목만 바꾸고 나머지는 보존해 원본 한 셀로 다시 저장합니다.",
+    "작업자용 추가항목의 탈색 공정에 추출액(L)을 표시하고, 추출액이 비어 있을 때 수위레벨 입력 시 기존 탈색 탱크 액량 계산기와 동일한 로직으로 자동 입력하도록 했습니다. 기존값과 수동 수정값은 자동값으로 덮어쓰지 않습니다.",
+    "현장 작업 Excel 각 공정의 비고를 다시 표시하고, 공정별 기록 조회에서는 행의 상세 보기에서만 열람하도록 정리했습니다. 상세 모달에서는 비고를 맨 아래에 바로 표시하며 비고 자체에 별도 비고가 생기지 않도록 처리했습니다."
   ]
 }
