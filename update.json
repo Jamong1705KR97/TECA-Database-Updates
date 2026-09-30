@@ -2,14 +2,16 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.3.20-Beta",
-  "revision": 4,
-  "releaseId": "1.3.20-Beta#4",
-  "publishedAt": "2026-09-30",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.3.20-Beta/TECA-Database-1.3.20-Beta.exe",
-  "sha256": "5ac155bf133a475b488aec5954d072c14e0f0085dbbe993fb037a06c75fc560b",
+  "version": "1.4.0-Beta",
+  "revision": 0,
+  "releaseId": "1.4.0-Beta#0",
+  "publishedAt": "2026-09-30T11:45:00+09:00",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.0-Beta/TECA-Database-1.4.0-Beta.exe",
+  "sha256": "c5f4e198f693bc9ce7648c2b810fc2f75da30a7d1f40f8d19bcd5280349f9100",
   "notes": [
-    "편집 진입 시 기존 입력값 자동 전체선택을 제거하고 일반 공정값·작업자용 추가항목·병풀 수정·구조형 입력에서 포커스만 이동하도록 수정",
-    "공정별 기록 조회 페이지 넘김에서 비고를 마지막 실제 분할 항목으로 포함하여 배정된 페이지에서만 한 번 표시"
+    "공정·데이터에 LC 분석자료 메뉴 신설",
+    "새 LC Lot·시료 등록, 기존 분석값 수정, 함량·성분량 계산 및 수정 이력",
+    "LC Excel 누적 가져오기·충돌 선택·원본 보존·계산 대조",
+    "Lot 비교, 기존 공정 Lot 연결, LC Excel 내보내기 및 재가져오기"
   ]
 }
