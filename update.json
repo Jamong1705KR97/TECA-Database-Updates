@@ -3,15 +3,14 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.0-Beta",
-  "revision": 0,
-  "releaseId": "1.4.0-Beta#0",
-  "publishedAt": "2026-09-30T11:45:00+09:00",
+  "revision": 1,
+  "releaseId": "1.4.0-Beta#1",
+  "publishedAt": "2026-09-30",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.0-Beta/TECA-Database-1.4.0-Beta.exe",
-  "sha256": "c5f4e198f693bc9ce7648c2b810fc2f75da30a7d1f40f8d19bcd5280349f9100",
+  "sha256": "5f9a9f579224586427705b435c1d8692a6bb08406936239a9ce2b236578024b5",
   "notes": [
-    "공정·데이터에 LC 분석자료 메뉴 신설",
-    "새 LC Lot·시료 등록, 기존 분석값 수정, 함량·성분량 계산 및 수정 이력",
-    "LC Excel 누적 가져오기·충돌 선택·원본 보존·계산 대조",
-    "Lot 비교, 기존 공정 Lot 연결, LC Excel 내보내기 및 재가져오기"
+    "새 LC Lot 작성 시 빈 시료 행 5개를 자동으로 준비",
+    "공정·시료명은 추출·탈색·1차여과액·2차여과액·가수분해 산처리·G탈색 6개 기본값에서 바로 선택 가능하도록 개선",
+    "LC 검색·기록 날짜·공정·시료 추가·원본 입력·수정 폼의 테두리·배경·간격·포커스 표현을 TECA 카드 UI와 일관되게 정리"
   ]
 }
