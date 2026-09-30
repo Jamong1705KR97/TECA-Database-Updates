@@ -6,12 +6,12 @@
   "revision": 1,
   "releaseId": "1.4.0-Beta#1",
   "publishedAt": "2026-09-30",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.0-Beta/TECA-Database-1.4.0-Beta.exe",
-  "sha256": "dd39a4a5f32a69feefc1e30fd93a70d96e29ddeddc3d2931ed620043b5c19a58",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.0-Beta-Revision-1/TECA-Database-1.4.0-Beta-Revision-1.exe",
+  "sha256": "947e4a9ed6da72f11cae539fccd58a7e1fcffb0995c909fda438cd4edd5720ff",
   "notes": [
-    "새 LC Lot 작성 시 빈 시료 행 5개를 자동으로 준비",
-    "공정·시료명은 추출·탈색·1차여과액·2차여과액·가수분해 산처리·G탈색 6개 기본값에서 바로 선택 가능하도록 개선",
-    "LC 검색·기록 날짜·공정·시료 추가·원본 입력·수정 폼의 UI를 TECA 카드 UI와 일관되게 정리",
-    "Revision 1 수정본: 좁은 유효 화면폭에서 LC 상세영역이 왼쪽 Lot 목록 아래로 내려가 보이지 않던 레이아웃 회귀 수정"
+    "새 LC Lot 생성 시 기존 시료 추가와 동일한 기본값의 시료 입력행 5개를 자동으로 준비합니다.",
+    "공정·시료명 기본 빠른 선택값 6개(추출, 탈색, 1차여과액, 2차여과액, 가수분해 산처리, G탈색)를 제공하며 다른 이름도 직접 입력할 수 있습니다.",
+    "LC 검색·기록날짜·분석 기준값·시료 조건·LC Area·공정/시료 추가 입력 UI를 TECA 테마와 자연스럽게 통일했습니다.",
+    "기존 LC 상세 렌더링, 자동계산, 저장·재로드, Excel 가져오기·병합 구조는 유지합니다."
   ]
 }
