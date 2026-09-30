@@ -7,10 +7,11 @@
   "releaseId": "1.4.0-Beta#1",
   "publishedAt": "2026-09-30",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.0-Beta/TECA-Database-1.4.0-Beta.exe",
-  "sha256": "5f9a9f579224586427705b435c1d8692a6bb08406936239a9ce2b236578024b5",
+  "sha256": "dd39a4a5f32a69feefc1e30fd93a70d96e29ddeddc3d2931ed620043b5c19a58",
   "notes": [
     "새 LC Lot 작성 시 빈 시료 행 5개를 자동으로 준비",
     "공정·시료명은 추출·탈색·1차여과액·2차여과액·가수분해 산처리·G탈색 6개 기본값에서 바로 선택 가능하도록 개선",
-    "LC 검색·기록 날짜·공정·시료 추가·원본 입력·수정 폼의 테두리·배경·간격·포커스 표현을 TECA 카드 UI와 일관되게 정리"
+    "LC 검색·기록 날짜·공정·시료 추가·원본 입력·수정 폼의 UI를 TECA 카드 UI와 일관되게 정리",
+    "Revision 1 수정본: 좁은 유효 화면폭에서 LC 상세영역이 왼쪽 Lot 목록 아래로 내려가 보이지 않던 레이아웃 회귀 수정"
   ]
 }
