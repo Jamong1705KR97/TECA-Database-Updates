@@ -2,17 +2,19 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.4.3-Beta",
-  "revision": 1,
-  "releaseId": "1.4.3-Beta#1",
+  "version": "1.4.4-Beta",
+  "revision": 0,
+  "releaseId": "1.4.4-Beta#0",
   "publishedAt": "2026-10-01",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.3-Beta/TECA-Database-1.4.3-Beta.exe",
-  "sha256": "4c266beff6a3624eded13b88cf2b506353d1f05148395933cd7b1c831f5852b6",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.4-Beta/TECA-Database-1.4.4-Beta.exe",
+  "sha256": "d8550506cd3805454f41add0a275be44040c163a9890edaa59a63f61594de33f",
   "notes": [
-    "원료정보 수정 모달이 사이드바·아이콘바·보조패널보다 뒤에 표시되던 레이어 문제를 수정해 일반 모달이 네비게이션보다 항상 앞에 표시되도록 했습니다.",
-    "아이콘바 + 보조패널형의 메뉴 스크롤 영역에 scrollbar gutter와 우측 여백을 확보해 공정별 조건 등 메뉴 박스의 오른쪽이 스크롤바에 잘려 보이지 않도록 수정했습니다.",
-    "좌측 사이드바형에서도 공정·데이터 메뉴 항목 증가 후 펼침 영역 높이 제한 때문에 마지막 항목이 잘릴 수 있는 부분을 함께 보완했습니다.",
-    "1.4.3-Beta의 원료정보 통합·QSH 정규화·Excel 가져오기 통합·공정별 기록조회 키보드 편집·일반클릭/Shift+클릭 역할 반전·LC ESC 동작은 그대로 유지합니다.",
+    "원료정보 공통 연동 기준일을 2026-09-01로 확대했습니다. 2026-08-31 이전 제조 Lot의 기존 Lot/LC 원료정보 문자열은 자동으로 덮어쓰지 않습니다.",
+    "원료정보 목록의 편집 조작을 공정별 기록 조회와 통일해 일반 클릭 즉시 편집, Shift+클릭 전체 수정 모달, Enter·Shift+Enter·Tab·Ctrl+Enter·Esc 키보드 편집을 지원합니다.",
+    "원료정보 수정 모달을 기본·투입 정보, 성분 함량·건조감량, QC·건조보정, Lot 집계 구역으로 재구성하고 여백과 가독성을 개선했습니다.",
+    "원료정보 Excel 가져오기에서 숫자 시험번호를 QSH 형식으로 정규화하고 건조감량 반영, Q.C시험함량, 건조 후 보정함량 및 Lot 단위 합계·평균·보정값까지 보존합니다.",
+    "원료정보 목록은 제조번호·제조일자·시험번호 세 헤더만 정렬할 수 있으며 기본 정렬에서는 동일 Lot의 제조번호·제조일자·연동 표시를 한 번만 보여주고 시험번호 정렬에서만 개별 행으로 표시합니다.",
+    "기존 1.4.3-Beta Revision 1의 모달 레이어·메뉴 잘림 수정, Excel 가져오기 통합, LC 및 공정별 기록 조회 기능을 보존합니다.",
     "SQL/외부 DB 구조와 TECA_Data 포맷은 변경하지 않았습니다."
   ]
 }
