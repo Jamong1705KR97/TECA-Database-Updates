@@ -1,17 +1,19 @@
 {
-  "schemaVersion": 1,
   "enabled": true,
-  "channel": "beta",
   "version": "1.4.5-Beta",
-  "revision": 4,
-  "releaseId": "1.4.5-Beta#4",
-  "publishedAt": "2026-10-02",
+  "revision": 5,
+  "releaseId": "1.4.5-Beta#5",
+  "channel": "beta",
+  "schemaVersion": 1,
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "49bec3452bbb0709a48d03f1544be7ec780fae59507c4d513c04af87ed0c5bc9",
+  "sha256": "f687cd94fcdadd730c9684746547db71355e01068d48adf9b85059ffcca67d3a",
   "notes": [
-    "Revision 4: LC 분석자료는 Revision 1의 화면 구조·전용 CSS·기능 스크립트 상태를 그대로 유지합니다.",
-    "잘못 지정되었던 날짜 폭 수정 대상을 LC가 아닌 원료정보 제조일자 열로 바로잡고, 제조일자 열 폭을 확대해 날짜가 한 줄로 표시되도록 했습니다.",
-    "Revision 3의 원료정보 인라인 편집 입력칸 축소 및 가운데 정렬을 유지합니다.",
-    "SQL/DB 및 TECA_Data 포맷은 변경하지 않았습니다."
+    "인수인계/오늘 작업 일정 Lot 링크를 박스 없는 종류별 색상 텍스트 링크로 간소화",
+    "원료정보 위/아래 가로 스크롤바 thumb/track 가시성 강화",
+    "원료정보 페이지 이동 컨트롤 밀착 배치 및 표 밀도 개선",
+    "원료정보 수정 가능 값과 조회/계산값의 시각적 구분 강화",
+    "제조번호 클릭으로 원료정보 수정 모달 진입, 별도 수정 열 제거",
+    "원료정보 인라인 편집 입력칸 축소 및 가운데 정렬",
+    "LC 분석자료는 Revision 1 상태 그대로 보존"
   ]
 }
