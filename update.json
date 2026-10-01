@@ -3,16 +3,15 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.5-Beta",
-  "revision": 3,
-  "releaseId": "1.4.5-Beta#3",
+  "revision": 4,
+  "releaseId": "1.4.5-Beta#4",
   "publishedAt": "2026-10-02",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "33240459dfb82fcd3a8adb79b51ddce85e25faca952e69eb12b53304b40c3e26",
+  "sha256": "49bec3452bbb0709a48d03f1544be7ec780fae59507c4d513c04af87ed0c5bc9",
   "notes": [
-    "Revision 3: 원료정보 인라인 편집 입력칸을 컴팩트하게 줄이고 입력칸과 입력값을 셀 가운데 정렬했습니다.",
-    "숫자형 인라인 입력은 96px, 일반 텍스트 입력은 최대 160px, 날짜 입력은 138px 기준으로 제한하며 셀 폭은 넘지 않습니다.",
-    "Revision 2의 원료정보 기능과 LC 분석자료 복구 상태를 그대로 유지하며 저장·계산·Excel·데이터 구조는 변경하지 않았습니다.",
-    "인수인계와 오늘 작업 일정의 자동연결 Lot는 TNA·TEA·CTE·CEA 색상 텍스트 링크로 유지됩니다.",
-    "원료정보 위·아래 스크롤바 thumb, 페이지 컨트롤 밀착, 수정 가능/조회전용 시각 구분, 제조번호 클릭 전체 수정 진입을 유지합니다."
+    "Revision 4: LC 분석자료는 Revision 1의 화면 구조·전용 CSS·기능 스크립트 상태를 그대로 유지합니다.",
+    "잘못 지정되었던 날짜 폭 수정 대상을 LC가 아닌 원료정보 제조일자 열로 바로잡고, 제조일자 열 폭을 확대해 날짜가 한 줄로 표시되도록 했습니다.",
+    "Revision 3의 원료정보 인라인 편집 입력칸 축소 및 가운데 정렬을 유지합니다.",
+    "SQL/DB 및 TECA_Data 포맷은 변경하지 않았습니다."
   ]
 }
