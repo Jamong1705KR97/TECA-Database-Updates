@@ -3,19 +3,16 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.3-Beta",
-  "revision": 0,
-  "releaseId": "1.4.3-Beta#0",
+  "revision": 1,
+  "releaseId": "1.4.3-Beta#1",
   "publishedAt": "2026-10-01",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.3-Beta/TECA-Database-1.4.3-Beta.exe",
-  "sha256": "e1109bdecad91108d65928eec5fe7c6672ccb650fb396c6d111f35110758c984",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.3-Beta-Revision-1/TECA-Database-1.4.3-Beta-Revision-1.exe",
+  "sha256": "4c266beff6a3624eded13b88cf2b506353d1f05148395933cd7b1c831f5852b6",
   "notes": [
-    "아이콘바 + 보조패널형에서 메뉴 버튼 우측이 스크롤바·경계 레일에 가려지거나 잘리는 현상을 보정했습니다.",
-    "공정별 기록 조회 편집을 일반 클릭=즉시 인라인 편집, Shift+클릭=상세/모달 편집으로 반전했습니다.",
-    "공정별 기록 조회 인라인 편집에서 Enter=기존 적용 확인, Shift+Enter=아래 행 이동하며 즉시 반영, Tab=오른쪽 칸 이동하며 즉시 반영, Ctrl+Enter=현재 칸 즉시 반영을 지원합니다.",
-    "LC 분석자료 입력·수정 모드에서 ESC를 누르면 현재 입력값을 유지한 채 조회 모드로 돌아가도록 개선했습니다.",
-    "Lot별 데이터 목록 아래 원료정보 메뉴를 추가하고 2026-10-01 이후 제조 Lot의 원료정보를 Lot별 데이터 및 LC 분석자료와 연동하도록 구성했습니다.",
-    "원료정보 Excel 가져오기에서 숫자 시험번호를 QSH 형식으로 정규화하고 원료별 4성분 함량·총 함량·건조감량·Lot별 투입량을 구조화해 저장합니다.",
-    "Excel 가져오기 화면을 Excel 종류 선택창과 공통 Excel 가져오기 버튼 하나로 통합했습니다.",
-    "SQL/외부 DB 구조와 기존 TECA_Data 포맷은 변경하지 않았으며 2026-10-01 이전 Lot의 기존 원료정보 문자열은 자동으로 덮어쓰지 않습니다."
+    "원료정보 수정 모달이 사이드바·아이콘바·보조패널보다 뒤에 표시되던 레이어 문제를 수정해 일반 모달이 네비게이션보다 항상 앞에 표시되도록 했습니다.",
+    "아이콘바 + 보조패널형의 메뉴 스크롤 영역에 scrollbar gutter와 우측 여백을 확보해 공정별 조건 등 메뉴 박스의 오른쪽이 스크롤바에 잘려 보이지 않도록 수정했습니다.",
+    "좌측 사이드바형에서도 공정·데이터 메뉴 항목 증가 후 펼침 영역 높이 제한 때문에 마지막 항목이 잘릴 수 있는 부분을 함께 보완했습니다.",
+    "1.4.3-Beta의 원료정보 통합·QSH 정규화·Excel 가져오기 통합·공정별 기록조회 키보드 편집·일반클릭/Shift+클릭 역할 반전·LC ESC 동작은 그대로 유지합니다.",
+    "SQL/외부 DB 구조와 TECA_Data 포맷은 변경하지 않았습니다."
   ]
 }
