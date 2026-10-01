@@ -6,7 +6,7 @@
   "revision": 1,
   "releaseId": "1.4.3-Beta#1",
   "publishedAt": "2026-10-01",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.3-Beta-Revision-1/TECA-Database-1.4.3-Beta-Revision-1.exe",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.3-Beta-Revision-1/TECA-Database-1.4.3-Beta.exe",
   "sha256": "4c266beff6a3624eded13b88cf2b506353d1f05148395933cd7b1c831f5852b6",
   "notes": [
     "원료정보 수정 모달이 사이드바·아이콘바·보조패널보다 뒤에 표시되던 레이어 문제를 수정해 일반 모달이 네비게이션보다 항상 앞에 표시되도록 했습니다.",
