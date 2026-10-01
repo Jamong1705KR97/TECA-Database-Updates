@@ -3,17 +3,16 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.5-Beta",
-  "revision": 2,
-  "releaseId": "1.4.5-Beta#2",
+  "revision": 3,
+  "releaseId": "1.4.5-Beta#3",
   "publishedAt": "2026-10-02",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "713cceafdb8e4439a90dcd6db0ca986a5e2f8ee002c1d34af184986b380c5ed0",
+  "sha256": "33240459dfb82fcd3a8adb79b51ddce85e25faca952e69eb12b53304b40c3e26",
   "notes": [
-    "인수인계와 오늘 작업 일정의 자동연결 Lot를 박스형 배지 대신 TNA·TEA·CTE·CEA 색상 텍스트 링크로 간소화했습니다.",
-    "원료정보 위·아래 가로 스크롤바의 손잡이를 명확히 표시하고 기존 스크롤 동기화와 고정 열을 유지했습니다.",
-    "원료정보 페이지 이동 컨트롤을 가까이 모으고 표 글자·행 밀도를 공정별 기록 조회에 가깝게 정리했습니다.",
-    "원료정보 수정 가능 값은 일반 본문색, 계산·조회전용 값은 보조색으로 구분했습니다.",
-    "원료정보 전체 수정 진입을 제조번호 클릭으로 통일하고 별도 전체 수정 열을 제거했습니다.",
-    "LC 분석자료 Lot 목록 날짜를 YYYY-MM-DD 전체가 잘리지 않도록 보강했습니다."
+    "Revision 3: 원료정보 인라인 편집 입력칸을 컴팩트하게 줄이고 입력칸과 입력값을 셀 가운데 정렬했습니다.",
+    "숫자형 인라인 입력은 96px, 일반 텍스트 입력은 최대 160px, 날짜 입력은 138px 기준으로 제한하며 셀 폭은 넘지 않습니다.",
+    "Revision 2의 원료정보 기능과 LC 분석자료 복구 상태를 그대로 유지하며 저장·계산·Excel·데이터 구조는 변경하지 않았습니다.",
+    "인수인계와 오늘 작업 일정의 자동연결 Lot는 TNA·TEA·CTE·CEA 색상 텍스트 링크로 유지됩니다.",
+    "원료정보 위·아래 스크롤바 thumb, 페이지 컨트롤 밀착, 수정 가능/조회전용 시각 구분, 제조번호 클릭 전체 수정 진입을 유지합니다."
   ]
 }
