@@ -2,19 +2,18 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.4.6-Beta",
-  "revision": 6,
-  "buildRevision": 6,
-  "releaseId": "1.4.6-Beta#6",
+  "revision": 7,
+  "buildRevision": 7,
+  "releaseId": "1.4.6-Beta#7",
   "channel": "beta",
-  "publishedAt": "2026-10-03T03:47:16+09:00",
+  "publishedAt": "2026-10-03T04:05:06+09:00",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.6-Beta/TECA-Database-1.4.6-Beta.exe",
-  "sha256": "b9514ce0ce45bbb6f23e2fd97fa6d0b1cc95a43f677632132e3c1d5e1c0f7668",
+  "sha256": "44f096bc864bcf7032b113c30d9bfad7d5da024f5170b5f9b03f281c329deeaa",
   "notes": [
-    "Revision 6 배포 교정: 프로그램 내부 revision과 releaseId를 Revision 6으로 맞췄습니다.",
-    "Core 내장 web/index.html의 실제 읽기 길이와 해시를 수정해 후단 3,527바이트 누락을 복구했습니다.",
-    "GitHub EXE, Changed-Core, Portable의 Core와 update.json SHA256을 동일하게 맞췄습니다.",
-    "이번 교정은 배포 정보와 내장 파일 읽기 범위 수정입니다. 기존 Revision 6의 UI 변경 코드는 재작성하지 않았습니다.",
-    "LC 시료조건 후속 패치에는 호출 경로가 연결되지 않은 부분이 남아 있습니다. UI 요구사항 전체 완료본으로 간주하지 마세요.",
-    "SQL/외부 DB 및 TECA_Data 형식·데이터 파일은 변경하지 않았습니다. 운영 TECA_Data를 덮어쓰지 마세요."
+    "Revision 7: 공정별 기록 조회 페이지 보기에서 실제 표시 열은 지정 너비를 유지하고 남는 오른쪽 공간은 빈 표 보충 영역으로만 채우도록 보정했습니다.",
+    "Revision 7: LC 시료조건의 병풀투입량/액량 배지를 값 오른쪽 같은 행으로 옮기고 숫자 입력/조회 정렬을 가운데로 통일했습니다.",
+    "Revision 7: 원료정보 목록과 LC 시료조건의 공통 헤더 연동 배지를 제거하고, 각 Lot·시료별 상태 표시만 유지하도록 정리했습니다.",
+    "Revision 7: 원료정보 고정열 순서는 제조번호·제조일자·시험번호·연동 상태로 유지됩니다.",
+    "SQL/외부 DB 변경 없음. TECA_Data 형식 및 데이터 파일 변경 없음."
   ]
 }
