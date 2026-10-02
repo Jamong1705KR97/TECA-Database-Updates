@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.4.6-Beta",
-  "revision": 7,
-  "buildRevision": 7,
-  "releaseId": "1.4.6-Beta#7",
   "channel": "beta",
-  "publishedAt": "2026-10-03T04:05:06+09:00",
+  "version": "1.4.6-Beta",
+  "revision": 8,
+  "buildRevision": 8,
+  "releaseId": "1.4.6-Beta#8",
+  "publishedAt": "2026-10-03",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.6-Beta/TECA-Database-1.4.6-Beta.exe",
-  "sha256": "44f096bc864bcf7032b113c30d9bfad7d5da024f5170b5f9b03f281c329deeaa",
+  "sha256": "3378a1754cb31a5e4c79a86e30fe2b9a30900827a5fee2b92dd8f3f802ce4a7c",
   "notes": [
-    "Revision 7: 공정별 기록 조회 페이지 보기에서 실제 표시 열은 지정 너비를 유지하고 남는 오른쪽 공간은 빈 표 보충 영역으로만 채우도록 보정했습니다.",
-    "Revision 7: LC 시료조건의 병풀투입량/액량 배지를 값 오른쪽 같은 행으로 옮기고 숫자 입력/조회 정렬을 가운데로 통일했습니다.",
-    "Revision 7: 원료정보 목록과 LC 시료조건의 공통 헤더 연동 배지를 제거하고, 각 Lot·시료별 상태 표시만 유지하도록 정리했습니다.",
-    "Revision 7: 원료정보 고정열 순서는 제조번호·제조일자·시험번호·연동 상태로 유지됩니다.",
-    "SQL/외부 DB 변경 없음. TECA_Data 형식 및 데이터 파일 변경 없음."
+    "공정별 기록 조회의 페이지 방식에서 실제 열은 지정 폭으로 왼쪽부터 배치하고, 남는 오른쪽 폭만 빈 표 보충 영역으로 채우도록 수정했습니다.",
+    "5분할 성분량 묶음은 셀 가운데에 두되 라벨과 숫자의 내부 시작선을 고정하고, 함량과 함량 연동여부를 같은 페이지에 유지했습니다.",
+    "원료정보 및 LC 시료조건 공통 헤더의 집계형 연동 배지를 제거하고 Lot·시료·필드별 개별 상태만 유지했습니다.",
+    "LC 시료조건의 병풀투입량·액량 배지를 값 오른쪽 같은 행으로 옮기고, 병풀투입량·액량·표준품 Area·희석배수·표준품보정의 조회/편집 정렬을 가운데로 통일했습니다.",
+    "연동 저장소 로딩 전에는 확인 중으로 표시하고, 동일한 시료 키 정규화와 실제 연동 이력·출처를 기준으로 상태를 판정하도록 수정했습니다."
   ]
 }
