@@ -3,17 +3,17 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.5-Beta",
-  "revision": 8,
-  "releaseId": "1.4.5-Beta#8",
+  "revision": 9,
+  "releaseId": "1.4.5-Beta#9",
   "publishedAt": "2026-10-02",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "260575fd19bffb9155b2c3a840fe425571cee14e1ce57b0f7bac712d1e2f1c11",
+  "sha256": "4e9175c6f99c3674b2d6f33c66c2223a93be2142e897b7f50ea1ea2cf45751dc",
   "notes": [
-    "LC 분석자료의 사용자 화면에서 모듈 준비 대기 단계를 제거하고 LC 저장자료를 직접 불러오도록 복구했습니다.",
-    "LC 화면 컨트롤러를 앱 초기화/로그인/마지막 페이지 복원 코드보다 먼저 등록하도록 실행 순서를 재배치하여 LC 진입 시점 경합을 제거했습니다.",
-    "계정별 마지막 페이지가 LC 분석자료인 경우에도 LC 로더가 이미 준비된 뒤 복원이 진행됩니다.",
-    "LC140 전역 등록은 유지하여 원료정보 연동과 LC 화면이 동일한 객체를 사용합니다.",
-    "기존 LC 계산·저장·Excel 가져오기와 Revision 7까지의 원료정보 기능은 그대로 유지합니다.",
-    "SQL/외부 DB 구조와 TECA_Data 포맷 및 데이터 파일은 변경하지 않았습니다."
+    "LC 분석자료의 Excel 가져오기에서 파일 분석 전에 공유 저장자료를 강제 재조회하던 순서를 수정했습니다.",
+    "이제 선택한 LC Excel의 ZIP·시트·Lot·양식을 먼저 검증한 뒤 기존 LC 자료와 대조하여 가져오기 미리보기를 생성합니다.",
+    "가져오기 미리보기 단계에서는 이미 로드된 LC 저장자료를 우선 사용하여 workflow-state 지연이나 타임아웃 때문에 정상 Excel 분석이 막히지 않도록 했습니다.",
+    "실제 저장 직전에는 최신 저장자료와 manifest를 다시 확인하여 동시 수정 덮어쓰기 방지는 그대로 유지합니다.",
+    "Excel 가져오기 상태에 파일 분석 중·기존 LC 자료 대조 중·분석 완료 또는 실패 사유를 단계별로 표시하도록 보강했습니다.",
+    "Revision 8의 LC 화면 초기화·계산·저장·원료정보 연동은 유지했으며 SQL/외부 DB 구조와 TECA_Data 포맷 및 데이터 파일은 변경하지 않았습니다."
   ]
 }
