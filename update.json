@@ -6,7 +6,7 @@
   "channel": "beta",
   "schemaVersion": 1,
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "494b8d84d1264377dfcbcf00dad8b7d961105ac6546a5c4a872ccec6d011d607",
+  "sha256": "7e2daccca03c1ccf93485eeaf50eadd886c3f787ed4f12532e5c8ebfc93643a2",
   "notes": [
     "원료정보 페이지 넘김을 페이지/스크롤 전환 버튼 옆으로 이동",
     "원료정보 인라인 편집 취소 후 재클릭 불가 문제 수정",
