@@ -1,19 +1,20 @@
 {
-  "enabled": true,
-  "version": "1.4.5-Beta",
-  "revision": 6,
-  "releaseId": "1.4.5-Beta#6",
-  "channel": "beta",
   "schemaVersion": 1,
+  "enabled": true,
+  "channel": "beta",
+  "version": "1.4.5-Beta",
+  "revision": 7,
+  "releaseId": "1.4.5-Beta#7",
+  "publishedAt": "2026-10-02",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "7e2daccca03c1ccf93485eeaf50eadd886c3f787ed4f12532e5c8ebfc93643a2",
+  "sha256": "1f79d884dd112aa373ab15b06ac5cb7c6cecafb695b0e788cdc0b2ca325fe0ba",
   "notes": [
-    "원료정보 페이지 넘김을 페이지/스크롤 전환 버튼 옆으로 이동",
-    "원료정보 인라인 편집 취소 후 재클릭 불가 문제 수정",
-    "제조번호 모달에서 한 Lot의 복수 시험번호 추가·수정·개별 제거 지원",
-    "제조번호 모달에 Lot 원료정보 전체 삭제 기능 추가 및 공유 시험번호 마스터 보존",
-    "페이지/스크롤 보기 고정영역을 시험번호까지 확장하고 시험번호 열 폭 축소",
-    "LC 분석자료를 캐시 우선 로드로 안정화하고 공유 저장자료 읽기 타임아웃/재시도 경로 추가",
-    "LC 로딩·실패 상태를 명시하여 정적 좌측 패널만 남는 빈 화면 고착 방지"
+    "LC 분석자료 페이지 진입과 LC 모듈 등록 시점이 엇갈려 좌측 정적 패널만 남고 Lot 목록과 우측 상세가 비는 문제를 보강했습니다.",
+    "LC 모듈이 아직 준비되지 않은 상태에서 페이지에 진입해도 준비를 기다린 뒤 자동으로 실제 로딩을 이어가도록 했습니다.",
+    "LC140을 window.LC140으로 명시적으로 등록하여 원료정보 연동 코드와 LC 화면이 동일한 객체를 사용하도록 복구했습니다.",
+    "LC 모듈 등록 직후 현재 페이지가 LC 분석자료이면 자동 재로딩하고, 준비 실패 시 상태 안내와 다시 불러오기 기능을 제공합니다.",
+    "비강제 중복 LC 로딩 요청은 하나의 in-flight 작업으로 합쳐 초기화 충돌 가능성을 줄였습니다.",
+    "Revision 6의 원료정보 Lot 전체 편집·삭제, 복수 시험번호, 시험번호 고정영역 및 기존 LC 계산·저장 구조는 그대로 유지합니다.",
+    "SQL/외부 DB 구조와 TECA_Data 포맷 및 데이터 파일은 변경하지 않았습니다."
   ]
 }
