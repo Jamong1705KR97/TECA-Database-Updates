@@ -3,17 +3,17 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.5-Beta",
-  "revision": 9,
-  "releaseId": "1.4.5-Beta#9",
+  "revision": 10,
+  "releaseId": "1.4.5-Beta#10",
   "publishedAt": "2026-10-02",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "4e9175c6f99c3674b2d6f33c66c2223a93be2142e897b7f50ea1ea2cf45751dc",
+  "sha256": "0ac5a662a06d4ca1dec9fdd916cc462b4ee6be568a98ba6ab75324ecfe1aa176",
   "notes": [
-    "LC 분석자료의 Excel 가져오기에서 파일 분석 전에 공유 저장자료를 강제 재조회하던 순서를 수정했습니다.",
-    "이제 선택한 LC Excel의 ZIP·시트·Lot·양식을 먼저 검증한 뒤 기존 LC 자료와 대조하여 가져오기 미리보기를 생성합니다.",
-    "가져오기 미리보기 단계에서는 이미 로드된 LC 저장자료를 우선 사용하여 workflow-state 지연이나 타임아웃 때문에 정상 Excel 분석이 막히지 않도록 했습니다.",
-    "실제 저장 직전에는 최신 저장자료와 manifest를 다시 확인하여 동시 수정 덮어쓰기 방지는 그대로 유지합니다.",
-    "Excel 가져오기 상태에 파일 분석 중·기존 LC 자료 대조 중·분석 완료 또는 실패 사유를 단계별로 표시하도록 보강했습니다.",
-    "Revision 8의 LC 화면 초기화·계산·저장·원료정보 연동은 유지했으며 SQL/외부 DB 구조와 TECA_Data 포맷 및 데이터 파일은 변경하지 않았습니다."
+    "Excel 가져오기 버튼을 눌러도 Windows 파일 선택창이 열리지 않던 문제를 수정했습니다.",
+    "스크립트가 숨은 file input의 click()을 대신 호출하던 구조를 제거하고, 사용자의 클릭이 브라우저 기본 Excel file input을 직접 활성화하도록 변경했습니다.",
+    "Excel file input의 DOM id와 파일 처리 함수 이름을 분리하여 전역 이름 충돌 가능성을 제거했습니다.",
+    "LC 분석시트·Lot/공정·2·3층 현장·1층 현장·원료정보·TECA 통합 Excel의 기존 파서와 병합 로직은 변경하지 않았습니다.",
+    "Revision 9의 LC Excel 분석 순서 및 저장 직전 최신자료 확인, Revision 8의 LC 초기화 순서 수정은 유지합니다.",
+    "SQL/외부 DB 구조와 TECA_Data 포맷 및 데이터 파일은 변경하지 않았습니다."
   ]
 }
