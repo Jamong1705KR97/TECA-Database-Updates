@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "enabled": true,
   "version": "1.4.6-Beta",
-  "revision": 5,
-  "buildRevision": 5,
-  "releaseId": "1.4.6-Beta#5",
+  "revision": 6,
+  "buildRevision": 6,
+  "releaseId": "1.4.6-Beta#6",
   "channel": "beta",
-  "publishedAt": "2026-10-03T02:41:35+09:00",
+  "publishedAt": "2026-10-03T03:47:16+09:00",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.6-Beta/TECA-Database-1.4.6-Beta.exe",
-  "sha256": "073d23c370a4e913538c66439e3c839abffd084617a9c1bfd855b81d49399102",
+  "sha256": "b9514ce0ce45bbb6f23e2fd97fa6d0b1cc95a43f677632132e3c1d5e1c0f7668",
   "notes": [
-    "Revision 5: Core의 web/index.html 실제 읽기 길이와 내장 HTML 길이를 일치시켜 후단 UI 패치 누락을 복구했습니다.",
-    "공정별 기록 조회의 함량 열 바로 오른쪽에 Lot별 함량 연동여부 열을 추가하고 페이지 분할에서도 한 쌍으로 유지합니다.",
-    "5분할 성분량의 라벨·숫자 시작선을 고정하고 총 행을 첫 번째 열과 맞췄습니다.",
-    "일반 textarea를 최초 표시·재열기·입력·프로그램 값 주입 후 자동 확장하며 수동으로 늘린 높이는 유지합니다.",
-    "공통 함량 헤더 배지를 제거하고 단일 Lot의 원료정보·함량 항목명 옆 실제 상태 배지를 유지합니다.",
-    "SQL/외부 DB 및 TECA_Data 형식 변경 없음. 기존 운영 TECA_Data를 덮어쓰지 마세요."
+    "Revision 6 배포 교정: 프로그램 내부 revision과 releaseId를 Revision 6으로 맞췄습니다.",
+    "Core 내장 web/index.html의 실제 읽기 길이와 해시를 수정해 후단 3,527바이트 누락을 복구했습니다.",
+    "GitHub EXE, Changed-Core, Portable의 Core와 update.json SHA256을 동일하게 맞췄습니다.",
+    "이번 교정은 배포 정보와 내장 파일 읽기 범위 수정입니다. 기존 Revision 6의 UI 변경 코드는 재작성하지 않았습니다.",
+    "LC 시료조건 후속 패치에는 호출 경로가 연결되지 않은 부분이 남아 있습니다. UI 요구사항 전체 완료본으로 간주하지 마세요.",
+    "SQL/외부 DB 및 TECA_Data 형식·데이터 파일은 변경하지 않았습니다. 운영 TECA_Data를 덮어쓰지 마세요."
   ]
 }
