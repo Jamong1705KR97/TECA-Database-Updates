@@ -3,16 +3,18 @@
   "enabled": true,
   "channel": "beta",
   "version": "1.4.5-Beta",
-  "revision": 11,
-  "releaseId": "1.4.5-Beta#11",
-  "publishedAt": "2026-10-02",
+  "revision": 12,
+  "releaseId": "1.4.5-Beta#12",
+  "publishedAt": "2026-10-02T12:18:00+09:00",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.5-Beta/TECA-Database-1.4.5-Beta.exe",
-  "sha256": "ffad69511c803f13f903c93e763954ebaea92d48fa15f5677f112f93b1d2f729",
+  "sha256": "c9d6bcb38c2391bf5486ae2fe8971530af4486e8c027131302b582cdbc5c7dd6",
   "notes": [
-    "LC 전체 스크립트의 실행 순서를 Revision 6의 안정된 후단 위치로 복구하고, 초기 LC 페이지 복원 요청만 작은 대기 브리지로 이어주도록 수정했습니다.",
-    "LC 처리 중 페이지 전체 클릭을 차단하던 캡처 핸들러를 제거하여 공정·시료 추가 등 일반 버튼이 무반응이 되는 문제를 수정했습니다.",
-    "Excel 가져오기 파일 선택은 프로필 사진 선택과 같은 브라우저 기본 file input 직접 방식으로 변경했습니다.",
-    "LC Excel은 선택 파일을 먼저 분석한 뒤 저장자료와 대조하고, 실제 저장 직전 최신 manifest 검증은 유지합니다.",
-    "SQL/외부 DB 구조와 TECA_Data 포맷 및 데이터 파일은 변경하지 않았습니다."
+    "Revision 1 정상본에서 비-LC 원료정보 개선사항만 재작업",
+    "원료정보 제조번호 클릭 전체 수정, 복수 시험번호 추가·수정·연결삭제 및 Lot 원료정보 삭제 지원",
+    "원료정보 시험번호까지 고정, 날짜·시험번호 폭/표 밀도/스크롤/편집 표시 개선",
+    "인라인 편집 취소 후 stale DOM 때문에 다음 셀 클릭이 막히는 문제 수정",
+    "인수인계·오늘 일정 Lot 링크를 제품군 색상을 유지한 일반 텍스트 링크로 정리",
+    "LC 분석자료 전용 script/style/정적 페이지 마크업은 Revision 1과 byte 동일하게 유지",
+    "SQL/외부 DB 변경 없음, TECA_Data 포맷 변경 없음"
   ]
 }
