@@ -1,15 +1,19 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.4.7-Beta",
-  "revision": 0,
-  "releaseId": "1.4.7-Beta#0",
   "channel": "beta",
+  "version": "1.4.7-Beta",
+  "revision": 3,
+  "releaseId": "1.4.7-Beta#3",
+  "publishedAt": "2026-10-07T00:31:00+09:00",
   "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.7-Beta/TECA-Database-1.4.7-Beta.exe",
-  "sha256": "829fa9616486b8eb576167ebdcdfb1aaad24b8dc9f6b5b86413469e2c5949bf7",
+  "sha256": "3ef6bccda58f71ff9e5f40628ba54e705756b94448c3b94b1289e2c2a87907be",
   "notes": [
-    "건조 Cake량 R39/R53/R70/R82/R95를 원본 Excel 수식과 같은 Cake량×(1-수분/건조감량) 방식으로 일괄 자동계산",
-    "선행값이 이미 있고 건조 Cake량이 비어 있으면 Lot 상세를 여는 즉시 자동 산출하며 Cake량·수분값 수정 시 실시간 재계산",
-    "기존 저장 건조 Cake값은 단순 조회만으로 덮어쓰지 않고 기존 원료정보·LC 저장 안정화 및 데이터 안전 정책 유지"
+    "연동 기능이 적용되는 필드는 연동/미연동 상태 배지를 표시하도록 보강하고, 현재 입력값과 연동 원천값이 정규화 후 같으면 입력 경로와 무관하게 연동으로 판정",
+    "공정 기본값과 작업자용 중복 필드 연동에도 빠져 있던 상태 배지를 추가하고 단위/퍼센트 정규화 후 실시간 일치 여부로 상태 판정",
+    "LC 시료조건의 미연동 값을 지워 원천값이 자동 복원될 때 즉시 연동 상태가 되도록 동일값 연동 메타데이터 갱신을 보강",
+    "LC 기존자료 백그라운드 연동 저장이 사용자 편집 중 manifest를 선점해 자기충돌을 만들던 경쟁상태를 제거하고 실제 외부 동시변경 차단은 유지",
+    "공정별 기록 조회의 수식 파생값 옆 자동 미니 배지는 제거하고 기존 자동계산/읽기전용 동작은 유지",
+    "SQL/외부 DB 및 TECA_Data 포맷/내용 변경 없음"
   ]
 }
