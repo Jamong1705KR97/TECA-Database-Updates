@@ -2,18 +2,18 @@
   "schemaVersion": 1,
   "enabled": true,
   "channel": "beta",
-  "version": "1.4.7-Beta",
-  "revision": 3,
-  "releaseId": "1.4.7-Beta#3",
-  "publishedAt": "2026-10-07T00:31:00+09:00",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.7-Beta/TECA-Database-1.4.7-Beta.exe",
-  "sha256": "3ef6bccda58f71ff9e5f40628ba54e705756b94448c3b94b1289e2c2a87907be",
+  "version": "1.4.8-Beta",
+  "revision": 10,
+  "releaseId": "1.4.8-Beta#10",
+  "publishedAt": "2026-10-13",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.8-Beta/TECA-Database-1.4.8-Beta.exe",
+  "sha256": "e43705a6eb93ff0f6a7031fff41eea451614bad36cc5637f527cfa95fb21dbea",
+  "fileSize": 34402304,
   "notes": [
-    "연동 기능이 적용되는 필드는 연동/미연동 상태 배지를 표시하도록 보강하고, 현재 입력값과 연동 원천값이 정규화 후 같으면 입력 경로와 무관하게 연동으로 판정",
-    "공정 기본값과 작업자용 중복 필드 연동에도 빠져 있던 상태 배지를 추가하고 단위/퍼센트 정규화 후 실시간 일치 여부로 상태 판정",
-    "LC 시료조건의 미연동 값을 지워 원천값이 자동 복원될 때 즉시 연동 상태가 되도록 동일값 연동 메타데이터 갱신을 보강",
-    "LC 기존자료 백그라운드 연동 저장이 사용자 편집 중 manifest를 선점해 자기충돌을 만들던 경쟁상태를 제거하고 실제 외부 동시변경 차단은 유지",
-    "공정별 기록 조회의 수식 파생값 옆 자동 미니 배지는 제거하고 기존 자동계산/읽기전용 동작은 유지",
-    "SQL/외부 DB 및 TECA_Data 포맷/내용 변경 없음"
-  ]
+    "같은 Lot의 다른 칸을 저장하면 함량 5분할 표시가 긴 가로 문자열로 무너지던 오류 수정",
+    "저장 후 표시를 갱신할 때 성분별 구조를 확인·복원하고 기존 소수점 표시와 원본 정밀도 유지",
+    "함량값 변경, 일반값·빈값 전환 및 재표시 처리 보완",
+    "Revision9의 백그라운드 저장·메뉴 이동·저장 완료 3초 후 현황창 닫기 유지"
+  ],
+  "verificationStatus": "Linux Chromium 실제 HTML 및 메모리 모의 API 재현·수정 검증 완료. Windows EXE 실행 미검증."
 }
