@@ -1,19 +1,14 @@
 {
   "schemaVersion": 1,
   "enabled": true,
+  "version": "1.4.9-Beta",
+  "revision": 1,
+  "releaseId": "1.4.9-Beta#1",
   "channel": "beta",
-  "version": "1.4.8-Beta",
-  "revision": 10,
-  "releaseId": "1.4.8-Beta#10",
-  "publishedAt": "2026-10-13",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.8-Beta/TECA-Database-1.4.8-Beta.exe",
-  "sha256": "e43705a6eb93ff0f6a7031fff41eea451614bad36cc5637f527cfa95fb21dbea",
-  "fileSize": 34402304,
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.9-Beta/TECA-Database-1.4.9-Beta.exe",
+  "sha256": "8093963e4b22ba116452c0d9b0ae4166a67672f5621e24a5c54c5b51aaeeb4a9",
   "notes": [
-    "같은 Lot의 다른 칸을 저장하면 함량 5분할 표시가 긴 가로 문자열로 무너지던 오류 수정",
-    "저장 후 표시를 갱신할 때 성분별 구조를 확인·복원하고 기존 소수점 표시와 원본 정밀도 유지",
-    "함량값 변경, 일반값·빈값 전환 및 재표시 처리 보완",
-    "Revision9의 백그라운드 저장·메뉴 이동·저장 완료 3초 후 현황창 닫기 유지"
-  ],
-  "verificationStatus": "Linux Chromium 실제 HTML 및 메모리 모의 API 재현·수정 검증 완료. Windows EXE 실행 미검증."
+    "Revision 1: 모든 연동 배지의 색상·양식·클릭 및 키보드 기능 통일",
+    "표의 값과 배지 공간 분리, 경계 잘림 및 다중 배지 겹침 보완"
+  ]
 }
