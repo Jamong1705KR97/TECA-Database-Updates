@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
   "enabled": true,
-  "version": "1.4.9-Beta",
-  "revision": 1,
-  "releaseId": "1.4.9-Beta#1",
+  "version": "1.4.14-Beta",
+  "revision": 8,
+  "releaseId": "1.4.14-Beta#8",
   "channel": "beta",
-  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.9-Beta/TECA-Database-1.4.9-Beta.exe",
-  "sha256": "8093963e4b22ba116452c0d9b0ae4166a67672f5621e24a5c54c5b51aaeeb4a9",
+  "downloadUrl": "https://github.com/Jamong1705KR97/TECA-Database-Updates/releases/download/v1.4.14-Beta/TECA-Database-1.4.14-Beta.exe",
+  "sha256": "073e9dd7b495869efcfbe33f930077a0579a527fa806ece96c829b053f0c15e0",
+  "publishedAt": "2026-11-24",
   "notes": [
-    "Revision 1: 모든 연동 배지의 색상·양식·클릭 및 키보드 기능 통일",
-    "표의 값과 배지 공간 분리, 경계 잘림 및 다중 배지 겹침 보완"
+    "계정 관리의 등록된 계정 위에서 외부 캘린더 연동을 설정할 수 있습니다.",
+    "발신 PC에서 매일 한국시간 자정에 인수인계의 최종 내용을 확인해 추가·변경·취소 초대를 보냅니다.",
+    "수신 주소, 본인 또는 전체 일정, 일정 유형을 선택하고 시험 일정과 전송 상태를 확인할 수 있습니다."
   ]
 }
